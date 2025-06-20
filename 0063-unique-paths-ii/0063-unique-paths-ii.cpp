@@ -1,23 +1,27 @@
 class Solution {
 public:
-    int c(vector<vector<int>>& o,int m,int n,vector<vector<int>>& dp,int x,int y,int count){
-        if(x==m-1 && y==n-1) return 1;
-        if(x>=m || y>=n) return 0;
-        if(o[x][y]==1) return 0;
-        if(dp[x][y]!= -1) return dp[x][y];
-        int p=c(o,m,n,dp,x,y+1,count);
-        int e=c(o,m,n,dp,x+1,y,count);
-        dp[x][y]=p+ e;
-         return dp[x][y];
-
-    }
     int uniquePathsWithObstacles(vector<vector<int>>& o) {
-        int m=o.size();
-        int n=o[0].size();
-        if (o[0][0] == 1 || o[m - 1][n - 1] == 1) return 0;
+        int m = o.size();
+        int n = o[0].size();
 
-        vector<vector<int>> dp(m,vector<int>(n,-1));
-        int count=0;
-        return c(o,m,n,dp,0,0,count);
+        vector<int> prev(n, 0);
+
+        for (int i = 0; i < m; ++i) {
+            vector<int> curr(n, 0);
+            for (int j = 0; j < n; ++j) {
+                if (o[i][j] == 1) {
+                    curr[j] = 0; // obstacle
+                } else if (i == 0 && j == 0) {
+                    curr[j] = 1; // starting cell
+                } else {
+                    int up = (i > 0) ? prev[j] : 0;
+                    int left = (j > 0) ? curr[j - 1] : 0;
+                    curr[j] = up + left;
+                }
+            }
+            prev = curr;
+        }
+
+        return prev[n - 1];
     }
 };
