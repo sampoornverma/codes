@@ -1,26 +1,25 @@
 class Solution {
 public:
+    int f(vector<int>& coins, int amount, vector<int>& dp) {
+        if (amount == 0) return 0;
+        if (amount < 0) return INT_MAX;
 
-    int coinChange(vector<int>& coins, int amount) {
-        int n=coins.size();
-        const int INF = 1e9; 
-        vector< vector<int>> dp(n, vector<int>(amount +1,INF));
-        for (int i = 0; i < n; i++) dp[i][0] = 0;
-        for (int j = 1; j <= amount; j++) {
-            if (j % coins[0] == 0)
-                dp[0][j] = j / coins[0];
-        }
-        for(int i=1;i<n;i++){
-            for(int j=1;j<=amount;j++){
-                int notPick = dp[i - 1][j];
-                int pick = INF;
-                if (coins[i] <= j)
-                    pick = 1 + dp[i][j - coins[i]];
-                dp[i][j] = min(pick, notPick);
+        if (dp[amount] != -1) return dp[amount];
+
+        int mini = INT_MAX;
+        for (int i = 0; i < coins.size(); i++) {
+            int res = f(coins, amount - coins[i], dp);
+            if (res != INT_MAX) {
+                mini = min(mini, 1 + res);
             }
         }
-        return (dp[n - 1][amount] == INF) ? -1 : dp[n - 1][amount];
 
-        
+        return dp[amount] = mini;
+    }
+
+    int coinChange(vector<int>& coins, int amount) {
+        vector<int> dp(amount + 1, -1);
+        int result = f(coins, amount, dp);
+        return (result == INT_MAX) ? -1 : result;
     }
 };
