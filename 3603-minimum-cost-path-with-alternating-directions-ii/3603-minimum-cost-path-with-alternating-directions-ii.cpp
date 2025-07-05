@@ -1,7 +1,7 @@
 class Solution {
 public:
     long long f(int m, int n, vector<vector<int>>& waitCost, int time, vector<vector<long long>>& dp, int i, int j) {
-        if (i == m || j == n) return 1e16;  
+        if (i == m || j == n) return 1e12;  
         if (i == m - 1 && j == n - 1) return 1; 
 
         if (dp[i][j] != -1) return dp[i][j];
