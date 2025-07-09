@@ -12,9 +12,9 @@
 class Solution {
 public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
-        if(root==nullptr) return nullptr;
-        TreeNode* c= root;
         TreeNode* a= new TreeNode(val);
+        if(root==nullptr) return a;
+        TreeNode* c= root;
         while(root !=nullptr){
             if(val>root->val){
                 if(root->right==nullptr){
