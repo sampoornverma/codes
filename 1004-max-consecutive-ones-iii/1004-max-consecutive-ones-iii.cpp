@@ -4,8 +4,8 @@ public:
     int l=0;
     int r=0;
     int one=0;
-    int len=0;
-    while(r<nums.size()){
+    int len=0,x=nums.size();
+    while(r<x){
         if(nums[r]==0)one++;
         if(one>k){
             if(nums[l]==0)one--;
