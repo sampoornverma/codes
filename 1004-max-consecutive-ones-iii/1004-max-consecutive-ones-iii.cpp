@@ -7,13 +7,13 @@ public:
     int len=0,x=nums.size();
     while(r<x){
         if(nums[r]==0)one++;
-        if(one>k){
+        while(one>k){
             if(nums[l]==0)one--;
             l++;
             }
-        else{
         
-        len=max(len,r-l+1);}
+        
+        len=max(len,r-l+1);
         r++;
     }
     return len;  
