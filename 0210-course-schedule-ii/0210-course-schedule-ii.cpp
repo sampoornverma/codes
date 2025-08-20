@@ -1,40 +1,37 @@
 class Solution {
 public:
-    vector<int> findOrder(int v, vector<vector<int>>& pre) {
-            vector<vector<int>> adj(v);  // initialize adj with size v
-
-        // Create adjacency list
-        for (int i = 0; i < pre.size(); i++) {
-            adj[pre[i][1]].push_back(pre[i][0]); // Reverse edge: course B → course A
+    vector<int> findOrder(int v, vector<vector<int>>& edges) {
+    vector<vector<int>> adj(v);
+        for (int i = 0; i < edges.size(); i++) {
+            adj[edges[i][0]].push_back(edges[i][1]);
         }
 
         vector<int> indegree(v, 0);
-        for (int i = 0; i < v; i++) {
-            for (int j : adj[i]) {
-                indegree[j]++;
-            }
+        vector<int> r;
+        vector<int> r1;
+        for (int i = 0; i < edges.size(); i++) {
+            indegree[edges[i][1]]++;
         }
 
         queue<int> q;
         for (int i = 0; i < v; i++) {
-            if (indegree[i] == 0)
-                q.push(i);
+            if (indegree[i] == 0) q.push(i);
         }
 
-        vector<int>a;
-        vector<int>b;
+        int count = 0; 
         while (!q.empty()) {
             int node = q.front();
             q.pop();
-            a.push_back(node);
-            for (int neigh : adj[node]) {
-                indegree[neigh]--;
-                if (indegree[neigh] == 0)
-                    q.push(neigh);
+            r.push_back(node);
+
+            for (auto it : adj[node]) {
+                indegree[it]--;
+                if (indegree[it] == 0) q.push(it);
             }
         }
 
-        if(a.size()==v)return a;
-        else return b;  
+        reverse(r.begin(),r.end());
+        if(r.size()==v)return r; 
+        return r1; 
     }
 };
