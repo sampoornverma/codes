@@ -6,31 +6,30 @@ public:
             adj[f[0]].push_back({f[1], f[2]});
         }
 
-        // Min-heap: {cost, {node, stops}}
-        priority_queue<pair<int,pair<int,int>>, vector<pair<int,pair<int,int>>>, greater<pair<int,pair<int,int>>>> pq;
+        queue<pair<int,pair<int,int>>> pq;
         pq.push({0, {src, 0}});
 
         vector<int> dist(n, 1e9);
         dist[src] = 0;
 
         while(!pq.empty()){
-            auto [cost, state] = pq.top();
+            auto it = pq.front();
             pq.pop();
-            int u = state.first;
-            int stops = state.second;
-
-            if(u == dst) return cost; // reached destination
-
-            if(stops > k) continue; // exceeded max stops
-
-            for(auto [v, price] : adj[u]){
-                if(cost + price < dist[v] || stops < k){
-                    dist[v] = cost + price;
-                    pq.push({cost + price, {v, stops+1}});
-                }
+            int stops = it.first;
+            int u = it.second.first;
+            int v= it.second.second;
+            if(stops>k) continue;
+            for(auto t : adj[u]){
+            int a= t.first;
+            int b=t.second;
+            if(v+b<dist[a] && stops<=k){
+                dist[a]=v+b;
+                pq.push({stops+1,{a,v+b}});
+            }
             }
         }
 
-        return -1;
+        if(dist[dst]==1e9)return -1;
+        else return dist[dst];
     }
 };
