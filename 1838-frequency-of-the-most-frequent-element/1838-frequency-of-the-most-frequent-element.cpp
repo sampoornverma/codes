@@ -2,22 +2,29 @@ class Solution {
 public:
     int maxFrequency(vector<int>& nums, int k) {
         sort(nums.begin(), nums.end());
-        long long total = 0;           // sum of elements in window [i..j]
-        int ans = 0;
-        int j = nums.size() - 1;       // right pointer (largest in window)
+        long long sum = 0;                // cost calculation helper
+        int count = 1;                     // current window size
+        long long total = nums[0];         // sum of elements in current window
+        int maxi = 1;                      // max frequency
+        int j = 0;                         // left pointer
 
-        for (int i = nums.size() - 1; i >= 0; --i) {
+        if (nums.size() == 1) return 1;
+
+        for (int i = 1; i < nums.size(); i++) {
             total += nums[i];
+            sum = (long long)(count + 1) * nums[i] - total;
 
-            // target is nums[j] (largest in window [i..j])
-            while (j >= i && (long long)nums[j] * (j - i + 1) - total > k) {
+            while (sum > k) {  // shrink window if cost too high
                 total -= nums[j];
-                j--;
+                j++;
+                count--;
+                sum = (long long)(count + 1) * nums[i] - total;
             }
 
-            if (j >= i) ans = max(ans, j - i + 1);
+            count++;
+            maxi = max(maxi, count);
         }
 
-        return ans;
+        return maxi;
     }
 };
