@@ -11,18 +11,18 @@
  */
 class Solution {
 public:
-    
-    
-    
-    void dfs(TreeNode* root, vector<int>& result) {
-        if (root == nullptr) return;
-        result.push_back(root->val);       // Visit Root
-        dfs(root->left, result);           // Traverse Left Subtree
-        dfs(root->right, result);          // Traverse Right Subtree
-    }
     vector<int> preorderTraversal(TreeNode* root) {
-        vector<int> result;
-        dfs(root, result);
-        return result;
+        vector<int> arr;
+        if(root==nullptr) return arr;
+        stack<TreeNode*> st;
+        st.push(root);
+        while(!st.empty()){ 
+                TreeNode* node=st.top();
+                st.pop();
+                arr.push_back(node->val);
+                if(node->right != nullptr)st.push(node->right);
+                if(node->left != nullptr)st.push(node->left);
+        }
+        return arr;
     }
 };
