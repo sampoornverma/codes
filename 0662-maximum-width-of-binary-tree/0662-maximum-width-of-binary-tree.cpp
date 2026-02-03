@@ -1,43 +1,34 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
 class Solution {
 public:
     int widthOfBinaryTree(TreeNode* root) {
-        if (!root) return 0;
+        if (root == nullptr) return 0;
 
-        queue<pair<TreeNode*, unsigned long long>> q; // use `unsigned long long` to avoid overflow
-        q.push({root, 0});
-        int ans = 0;
+        long long maxi = 1;
+        queue<pair<TreeNode*, long long>> q;
+        q.push({root, 1});
 
         while (!q.empty()) {
-            int size = q.size();
-            unsigned long long min_index = q.front().second;
-            unsigned long long first = 0, last = 0;
+            int x = q.size();
 
-            for (int i = 0; i < size; i++) {
-                auto [node, index] = q.front();
+            // the first and last position at this level
+            long long first = q.front().second;
+            long long last = q.back().second;
+
+            // update max width with this level's width
+            maxi = max(maxi, last - first + 1);
+
+            // process children
+            while (x--) {
+                auto [node, pos] = q.front();
                 q.pop();
-                index -= min_index; // normalize to prevent overflow
 
-                if (i == 0) first = index;
-                if (i == size - 1) last = index;
-
-                if (node->left)  q.push({node->left, 2 * index + 1});
-                if (node->right) q.push({node->right, 2 * index + 2});
+                if (node->left)
+                    q.push({node->left, pos * 2});
+                if (node->right)
+                    q.push({node->right, pos * 2 + 1});
             }
-
-            ans = max(ans, int(last - first + 1));
         }
 
-        return ans;
+        return (int)maxi;
     }
 };
