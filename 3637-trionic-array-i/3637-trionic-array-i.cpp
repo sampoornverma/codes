@@ -1,31 +1,32 @@
 class Solution {
 public:
+    bool a = false;
+    int countIncDec = 0;
+    int countDecInc = 0;
+
     bool isTrionic(vector<int>& nums) {
-        int n = nums.size();
+        int n = nums.size();  // Fix size bug
         if (n < 4) return false;
 
-        // 1) Strictly increasing part
-        int p = 0;
-        while (p < n - 2 && nums[p] < nums[p + 1]) {
-            p++;
+        // Find first increasing to decreasing transition
+        int i = 1;
+        while (i < n && nums[i] > nums[i-1]) {
+            i++;
         }
-        // No initial strictly increasing part
-        if (p == 0) return false;
+        if (i == 1 || i == n) return false;
 
-        // 2) Strictly decreasing part
-        int q = p;
-        while (q < n - 1 && nums[q] > nums[q + 1]) {
-            q++;
+        // Find decreasing to increasing transition
+        int j = i;
+        while (j < n && nums[j] < nums[j-1]) {
+            j++;
         }
-        // Must be a decreasing segment and room for final increase
-        if (q == p || q == n - 1) return false;
+        if (j == i || j == n) return false;
 
-        // 3) Final strictly increasing part
-        while (q < n - 1 && nums[q] < nums[q + 1]) {
-            q++;
+        // Check last part strictly increasing
+        while (j < n && nums[j] > nums[j-1]) {
+            j++;
         }
 
-        // Check if we reached the end
-        return (q == n - 1);
+        return (j == n);
     }
 };
