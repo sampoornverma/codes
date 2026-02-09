@@ -15,7 +15,7 @@ public:
             }
         }
 
-        vis[node] = 2;  // mark as fully processed
+        vis[node] = 2;  
         return true;
     }
 
@@ -23,12 +23,10 @@ public:
         vector<vector<int>> adj(v);
         vector<int> vis(v, 0);
 
-        // Create adjacency list
         for (int i = 0; i < pre.size(); i++) {
             adj[pre[i][1]].push_back(pre[i][0]);
         }
 
-        // Run DFS from each unvisited node
         for (int i = 0; i < v; i++) {
             if (vis[i] == 0) {
                 if (!dfs(i, adj, vis))
