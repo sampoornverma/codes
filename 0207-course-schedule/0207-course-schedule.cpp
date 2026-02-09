@@ -1,36 +1,40 @@
 class Solution {
 public:
-    bool canFinish(int v, vector<vector<int>>& edges) {
-    vector<vector<int>> adj(v);
-        for (int i = 0; i < edges.size(); i++) {
-            adj[edges[i][0]].push_back(edges[i][1]);
-        }
+    // 0 = unvisited, 1 = visiting, 2 = visited
+    bool dfs(int node, vector<vector<int>>& adj, vector<int>& vis) {
+        vis[node] = 1;  // mark as visiting
 
-        // Compute indegrees
-        vector<int> indegree(v, 0);
-        for (int i = 0; i < edges.size(); i++) {
-            indegree[edges[i][1]]++;
-        }
-
-        // Push all nodes with indegree 0
-        queue<int> q;
-        for (int i = 0; i < v; i++) {
-            if (indegree[i] == 0) q.push(i);
-        }
-
-        int count = 0; // count nodes in topo sort
-        while (!q.empty()) {
-            int node = q.front();
-            q.pop();
-            count++;
-
-            for (auto it : adj[node]) {
-                indegree[it]--;
-                if (indegree[it] == 0) q.push(it);
+        for (int nei : adj[node]) {
+            if (vis[nei] == 1) {
+                // cycle detected
+                return false;
+            }
+            if (vis[nei] == 0) {
+                if (!dfs(nei, adj, vis))
+                    return false;
             }
         }
 
-        // If count < v, cycle exists
-        return (count == v);   
+        vis[node] = 2;  // mark as fully processed
+        return true;
+    }
+
+    bool canFinish(int v, vector<vector<int>>& pre) {
+        vector<vector<int>> adj(v);
+        vector<int> vis(v, 0);
+
+        // Create adjacency list
+        for (int i = 0; i < pre.size(); i++) {
+            adj[pre[i][1]].push_back(pre[i][0]);
+        }
+
+        // Run DFS from each unvisited node
+        for (int i = 0; i < v; i++) {
+            if (vis[i] == 0) {
+                if (!dfs(i, adj, vis))
+                    return false;
+            }
+        }
+        return true;
     }
 };
