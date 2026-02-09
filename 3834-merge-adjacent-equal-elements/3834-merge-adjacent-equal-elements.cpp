@@ -1,27 +1,39 @@
 class Solution {
 public:
     vector<long long> mergeAdjacent(vector<int>& nums) {
+        vector<long long> arr;
         stack<long long> st;
 
-        for (int x : nums) {
-            long long cur = x;
+        int i = 0;
+        st.push(nums[i]);
+        i++;
 
-            // Chain merging
-            while (!st.empty() && st.top() == cur) {
-                cur += st.top();
+        while (i < nums.size()) {
+            long long top = st.top();
+
+            if (top == nums[i]) {
                 st.pop();
-            }
+                long long d = top + nums[i];
 
-            st.push(cur);
+                while (!st.empty() && st.top() == d) {
+                    d += st.top();
+                    st.pop();
+                }
+
+                st.push(d);
+                i++;
+            } else {
+                st.push(nums[i]);
+                i++;
+            }
         }
 
-        // Convert stack to array
-        vector<long long> result(st.size());
-        for (int i = st.size() - 1; i >= 0; i--) {
-            result[i] = st.top();
+        // Extract stack
+        while (!st.empty()) {
+            arr.push_back(st.top());
             st.pop();
         }
-
-        return result;
+        reverse(arr.begin(),arr.end());
+        return arr;
     }
 };
