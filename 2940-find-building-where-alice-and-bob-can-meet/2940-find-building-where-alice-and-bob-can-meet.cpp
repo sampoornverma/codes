@@ -49,7 +49,7 @@ public:
             int a = q[0], b = q[1];
 
             if (a == b) {
-                ans.push_back(a);
+                ans.push_back(b);
                 continue;
             }
 
