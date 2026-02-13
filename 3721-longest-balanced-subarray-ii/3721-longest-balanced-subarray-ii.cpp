@@ -1,133 +1,103 @@
+
 class Solution {
 public:
-    struct SegTree {
-        int n;
-        vector<int> sum, mn, mx;
-        vector<int> lazyVal;
-        vector<bool> hasLazy;
 
-        SegTree(int _n){
-            n = _n;
-            sum.assign(4 * n + 5, 0);
-            mn.assign(4 * n + 5, 0);
-            mx.assign(4 * n + 5, 0);
-            lazyVal.assign(4 * n + 5, 0);
-            hasLazy.assign(4 * n + 5, 0);
-        }
+    vector<int> segMin, segMax, lazy;
+    int n;
 
-        void pull(int v){
-            sum[v] = sum[v << 1] + sum[v << 1 | 1];
-            mn[v] = min(mn[v << 1], sum[v << 1] + mn[v << 1 | 1]);
-            mx[v] = max(mx[v << 1], sum[v << 1] + mx[v << 1 | 1]);
-        }
+    void propagate(int i, int l, int r) {
+        if (lazy[i] != 0) {
+            segMin[i] += lazy[i];
+            segMax[i] += lazy[i];
 
-        void applySet(int v, int l, int r, int val){
-            int len = r - l + 1;
-            sum[v] = 1LL * val * len;
-
-            if(val == 0){
-                mn[v] = 0;
-                mx[v] = 0;
+            if (l != r) {
+                lazy[2*i+1] += lazy[i];
+                lazy[2*i+2] += lazy[i];
             }
-            else if(val > 0){
-                mn[v] = val;
-                mx[v] = 1LL * val * len;
-            }
-            else{
-                mn[v] = 1LL * val * len;
-                mx[v] = val;
-            }
+            lazy[i] = 0;
+        }
+    }
 
-            hasLazy[v] = true;
-            lazyVal[v] = val;
+    // Range add val to [start, end]
+    void updateRange(int start, int end, int i, int l, int r, int val) {
+        propagate(i, l, r); //make sure to propagate before hand
+
+        if (l > end || r < start) return;
+
+        //[start...end[ is fully inside range of current node [l..r]
+        if (l >= start && r <= end) {
+            lazy[i] += val;
+            propagate(i, l, r);
+            return;
         }
 
-        void push(int v, int l, int r){
-            if(!hasLazy[v] || l == r) return;
-            int m = (l + r) >> 1;
-            applySet(v << 1, l, m, lazyVal[v]);
-            applySet(v << 1 | 1, m + 1, r, lazyVal[v]);
-            hasLazy[v] = false;
+        int mid = (l + r) / 2;
+        updateRange(start, end, 2*i+1, l, mid, val);
+        updateRange(start, end, 2*i+2, mid+1, r, val);
+
+        segMin[i] = min(segMin[2*i+1], segMin[2*i+2]);
+        segMax[i] = max(segMax[2*i+1], segMax[2*i+2]);
+    }
+
+    int findLeftMostZero(int i, int l, int r) {
+        propagate(i, l, r);
+
+        if(segMin[i] > 0 || segMax[i] < 0) {
+            return -1;
         }
 
-        void update(int pos, int newval){
-            update(1, 0, n - 1, pos, pos, newval);
+        if(l == r) {
+            return l;
         }
 
-        void update(int v, int l, int r, int ql, int qr, int val){
-            if(ql <= l && r <= qr){
-                applySet(v, l, r, val);
-                return;
-            }
-            push(v, l, r);
-            int m = (l + r) >> 1;
-            if(ql <= m) update(v << 1, l, m, ql, qr, val);
-            if(qr >  m) update(v << 1 | 1, m + 1, r, ql, qr, val);
-            pull(v);
-        }
-
-        int query(int x){
-            if(x == 0) return -1;
-            if(x < mn[1] || x > mx[1]) return n;
-            int pref = 0;
-            return query(1, 0, n - 1, x, pref);
-        }
-
-        int query(int v, int l, int r, int x, int& pref){
-            if(l == r){
-                if(pref + sum[v] == x) return l;
-                return n;
-            }
-
-            push(v, l, r);
-
-            int m = (l + r) >> 1;
-            int L = v << 1;
-            int R = v << 1 | 1;
-
-            int leftMin = pref + mn[L];
-            int leftMax = pref + mx[L];
-
-            if(x >= leftMin && x <= leftMax){
-                return query(L, l, m, x, pref);
-            }
-            else{
-                pref += sum[L];
-                return query(R, m + 1, r, x, pref);
-            }
-        }
-    };
+        int mid = l + (r-l)/2;
+        int leftResult = findLeftMostZero(2*i+1, l, mid);
+        if(leftResult != -1)
+            return leftResult;
+        
+        return findLeftMostZero(2*i+2, mid+1, r);
+    }
 
     int longestBalanced(vector<int>& nums) {
-        int n = (int)nums.size();
-        int m = 0;
-        for(auto x : nums) m = max(m, x);
-        m += 1;
+        n = nums.size();
+        segMin.assign(4*n, 0);
+        segMax.assign(4*n, 0);
+        lazy.assign(4*n, 0);
 
-        vector<int> lastPos(m, -1);
-        SegTree S(n);
+        //treating even = +1 and odd = -1
+        vector<int> cumSum(n, 0);
 
-        int sum = 0;
-        int ans = 0;
+        int maxL = 0;
 
-        for(int i = 0; i < n; i++){
-            if(lastPos[nums[i]] != -1){
-                S.update(lastPos[nums[i]], 0);
+        unordered_map<int, int> mp;
+
+        for(int r = 0; r < n; r++) {
+            int val = (nums[r] % 2 == 0) ? 1 : -1;
+
+            int prev = -1;
+            if(mp.count(nums[r])) {
+                prev = mp[nums[r]];
             }
-            else{
-                if(nums[i] % 2) sum += 1;
-                else sum -= 1;
+
+            if(prev != -1) { //we have seen this element in past
+                //[0..prev] we are adding (-val) in the range
+                updateRange(0, prev, 0, 0, n-1, -val);
             }
 
-            lastPos[nums[i]] = i;
+            //[0...r] we are adding val in the range
+            updateRange(0, r, 0, 0, n-1, val);
 
-            if(nums[i] % 2) S.update(i, +1);
-            else S.update(i, -1);
+            //We are finding left most 0 in the range [0...r]
+            int l = findLeftMostZero(0, 0, n-1);
+            if(l != -1)
+                maxL = max(maxL, r-l+1);
 
-            int p = S.query(sum);
-            ans = max(ans, i - p);
+            mp[nums[r]] = r;
         }
 
-        return ans;
+        return maxL;
     }
 };
+
+
+
