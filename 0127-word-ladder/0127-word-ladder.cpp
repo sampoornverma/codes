@@ -1,28 +1,49 @@
 class Solution {
 public:
-    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
+    int wordLadderLength(string startWord, string targetWord,
+                         vector<string>& wordList) {
+
+        // Step 1: store dictionary in set for fast lookup
         unordered_set<string> st(wordList.begin(), wordList.end());
-        if(st.find(endWord) == st.end()) return 0;  // endWord not in wordList → no solution
 
+        // If target not present, no transformation possible
+        if (st.find(targetWord) == st.end()) return 0;
+
+        // Step 2: BFS queue -> {word, steps}
         queue<pair<string, int>> q;
-        q.push({beginWord, 1});
-        st.erase(beginWord);
+        q.push({startWord, 1});
 
-        while(!q.empty()) {
-            auto [word, steps] = q.front();
+        // Remove start word to avoid revisiting
+        st.erase(startWord);
+
+        // Step 3: BFS traversal
+        while (!q.empty()) {
+
+            string word = q.front().first;
+            int steps = q.front().second;
             q.pop();
 
-            if(word == endWord) return steps;
+            // If reached target
+            if (word == targetWord) return steps;
 
-            for(int i = 0; i < word.size(); i++) {
+            // Try changing every character
+            for (int i = 0; i < word.size(); i++) {
+
                 char original = word[i];
-                for(char ch = 'a'; ch <= 'z'; ch++) {
+
+                for (char ch = 'a'; ch <= 'z'; ch++) {
+
                     word[i] = ch;
-                    if(st.find(word) != st.end()) {
+
+                    // If word exists in dictionary
+                    if (st.find(word) != st.end()) {
+
                         st.erase(word);
                         q.push({word, steps + 1});
                     }
                 }
+
+                // Restore original character
                 word[i] = original;
             }
         }
