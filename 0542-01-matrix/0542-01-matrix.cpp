@@ -1,42 +1,50 @@
 class Solution {
 public:
-    void bfs(int n, int m, vector<vector<int>>& img, vector<int> gc, vector<int> gr) {
-        queue<pair<int, int>> q;
+    vector<vector<int>> updateMatrix(vector<vector<int>>& m1) {
 
+        int n = m1.size();
+        int m = m1[0].size();
+
+        // {row, {col, distance}}
+        queue<pair<int, pair<int,int>>> q;
+
+        // Step 1: push all zeros and mark others as -1
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                if (img[i][j] == 0) {
-                    q.push({i, j});
+                if (m1[i][j] == 0) {
+                    q.push({i, {j, 0}});
                 } else {
-                    img[i][j] = -1; // mark unvisited 1s
+                    m1[i][j] = -1;
                 }
             }
         }
 
+        vector<int> gr = {-1, 0, 1, 0}; 
+        vector<int> gc = {0, 1, 0, -1};
+
+        // Step 2: BFS
         while (!q.empty()) {
-            int a = q.front().first;
-            int b = q.front().second;
+
+            auto it = q.front();
             q.pop();
 
-            for (int i = 0; i < 4; i++) {
-                int af = a + gr[i];
-                int bf = b + gc[i];
+            int a = it.first;
+            int b = it.second.first;
+            int dist = it.second.second;
 
-                if (af >= 0 && bf >= 0 && af < n && bf < m && img[af][bf] == -1) {
-                    img[af][bf] = img[a][b] + 1;
-                    q.push({af, bf});
+            for (int i = 0; i < 4; i++) {
+
+                int x = a + gr[i];
+                int y = b + gc[i];
+
+                if (x >= 0 && x < n && y >= 0 && y < m && m1[x][y] == -1) {
+
+                    m1[x][y] = dist + 1;
+                    q.push({x, {y, dist + 1}});
                 }
             }
         }
-    }
 
-    vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
-        vector<vector<int>> img = mat;
-        vector<int> gc = {-1, 0, 1, 0};
-        vector<int> gr = {0, -1, 0, 1};
-        int n = mat.size();
-        int m = mat[0].size();
-        bfs(n, m, img, gc, gr);
-        return img;
+        return m1;
     }
 };
