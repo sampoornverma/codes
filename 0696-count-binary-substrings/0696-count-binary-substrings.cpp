@@ -1,19 +1,23 @@
 class Solution {
 public:
     int countBinarySubstrings(string s) {
-        int prev = 0, curr = 1, ans = 0;
+        int n = s.size();
+        int prev = 0;   // previous block count
+        int curr = 1;   // current block count
+        int total = 0;
 
-        for (int i = 1; i < s.size(); i++) {
+        for (int i = 1; i < n; i++) {
             if (s[i] == s[i - 1]) {
-                curr++;
+                curr++;   // extend current block
             } else {
-                ans += min(prev, curr);
-                prev = curr;
+                // like going from 00111 → 11100
+                total += min(prev, curr);
+                prev = curr;   // save previous group
                 curr = 1;
             }
         }
 
-        ans += min(prev, curr);
-        return ans;
+        total += min(prev, curr);
+        return total;
     }
 };
