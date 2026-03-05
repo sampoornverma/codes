@@ -1,7 +1,7 @@
 class Solution {
 public:
-    int v(char start , string s){
-        char a=start;
+    int v(char a , string s){
+        
         int count=0;
         for(int i=0;i<s.size();i++){
             if(s[i]!=a){
