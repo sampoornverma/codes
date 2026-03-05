@@ -7,11 +7,7 @@ public:
             if(s[i]!=a){
                 count++;
             }
-            if(a=='0'){
-                a='1';
-            }else{
-                a='0';
-            }
+            a = (a == '0') ? '1' : '0';
             
         }
         return count;
