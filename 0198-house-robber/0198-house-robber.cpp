@@ -1,16 +1,17 @@
 class Solution {
 public:
-    int f(vector<int>& nums,vector<int>& dp,int i,int n){
-        if(i==0)return nums[0];
-        if(i<0) return 0;
-        if(dp[i]!= -1) return dp[i];
-        int p=nums[i]+f(nums,dp,i-2,n);
-        int np=f(nums,dp,i-1,n);
-        return dp[i]=max(p,np);
-    }
     int rob(vector<int>& nums) {
-        int n=nums.size();
-        vector<int> dp(n,-1);
-        return f(nums,dp,n-1,n);
+        int n = nums.size();
+        int a=nums[0];
+        int b=0;
+        int curr=nums[0];
+        for(int i=1;i<n;i++){
+           int noti = a;
+           int take=nums[i]+b;
+           curr=max(noti,take);
+           b=a;
+           a=curr;
+        }
+        return curr;
     }
 };
