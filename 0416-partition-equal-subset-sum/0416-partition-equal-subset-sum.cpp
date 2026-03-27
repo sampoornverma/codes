@@ -1,25 +1,36 @@
 class Solution {
 public:
-bool f(int i, int sum, vector<int>& o, vector<vector<int>>& dp, int k) {
-    if (sum == k) return true;
-    if (i == o.size() || sum > k) return false;
+    bool canPartition(vector<int>& arr) {
+        int sum=0;
+        int n=arr.size();
+        for(int i=0;i<arr.size();i++){
+            sum=sum+arr[i];
+        }
+        if(sum%2==1)return false;
+        int k=sum/2;
+          vector<vector<bool>> dp(n, vector<bool>(k+1,false));
 
-    if (dp[i][sum] != -1) return dp[i][sum];
+    for(int i=0;i<n;i++)
+        dp[i][0] = true;
 
-    // pick the current element
-    bool pick = f(i + 1, sum + o[i], o, dp, k);
+    if(arr[0] <= k)
+        dp[0][arr[0]] = true;
 
-    // don't pick the current element
-    bool npick = f(i + 1, sum, o, dp, k);
+    for(int i=1;i<n;i++){
+        for(int target=1; target<=k; target++){
 
-    return dp[i][sum] = pick || npick;
-}
-    bool canPartition(vector<int>& o) {
-        int n=o.size();
-        int k=accumulate(o.begin(),o.end(),0);
-        if(k%2 != 0)return false;
-        k=k/2;
-        vector<vector<int>> dp(n, vector<int>(k + 1, -1));
-        return f(0, 0, o, dp, k);
+            bool notTake = dp[i-1][target];
+            bool take = false;
+
+            if(arr[i] <= target)
+                take = dp[i-1][target-arr[i]];
+
+            dp[i][target] = take || notTake;
+        }
+    }
+
+    return dp[n-1][k];
+
+
     }
 };
