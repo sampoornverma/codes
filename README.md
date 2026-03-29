@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0044-wildcard-matching](https://github.com/sampoornverma/codes/tree/main/0044-wildcard-matching/) | Hard |
 | [0115-distinct-subsequences](https://github.com/sampoornverma/codes/tree/main/0115-distinct-subsequences/) | Hard |
 | [1143-longest-common-subsequence](https://github.com/sampoornverma/codes/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/sampoornverma/codes/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
@@ -21,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0044-wildcard-matching](https://github.com/sampoornverma/codes/tree/main/0044-wildcard-matching/) | Hard |
 | [0509-fibonacci-number](https://github.com/sampoornverma/codes/tree/main/0509-fibonacci-number/) | Easy |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/sampoornverma/codes/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 ## Simulation
@@ -120,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0044-wildcard-matching](https://github.com/sampoornverma/codes/tree/main/0044-wildcard-matching/) | Hard |
 | [0053-maximum-subarray](https://github.com/sampoornverma/codes/tree/main/0053-maximum-subarray/) | Medium |
 | [0064-minimum-path-sum](https://github.com/sampoornverma/codes/tree/main/0064-minimum-path-sum/) | Medium |
 | [0070-climbing-stairs](https://github.com/sampoornverma/codes/tree/main/0070-climbing-stairs/) | Easy |
@@ -169,6 +172,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0044-wildcard-matching](https://github.com/sampoornverma/codes/tree/main/0044-wildcard-matching/) | Hard |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/sampoornverma/codes/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/sampoornverma/codes/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/sampoornverma/codes/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
