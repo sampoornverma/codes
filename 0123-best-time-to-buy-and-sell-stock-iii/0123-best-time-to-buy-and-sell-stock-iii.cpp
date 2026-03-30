@@ -1,27 +1,41 @@
 class Solution {
 public:
-    int f(vector<int>& prices, vector<vector<vector<int>>>& dp, int i, int buy, int count) {
-        int n = prices.size();
-        if (count == 4 || i == n) return 0;
 
-        if (dp[i][buy][count] != -1) return dp[i][buy][count];
+    int f(int i, int buy, int no, vector<int>& prices, vector<vector<vector<int>>>& dp){
 
-        if (buy == 1) {
-            // Either buy or skip
-            int pick = -prices[i] + f(prices, dp, i + 1, 0, count + 1);
-            int notPick = f(prices, dp, i + 1, 1, count);
-            return dp[i][buy][count] = max(pick, notPick);
-        } else {
-            // Either sell or skip
-            int pick = prices[i] + f(prices, dp, i + 1, 1, count + 1);
-            int notPick = f(prices, dp, i + 1, 0, count);
-            return dp[i][buy][count] = max(pick, notPick);
+        if(i == prices.size() || no == 2)
+            return 0;
+
+        if(dp[i][buy][no] != -1)
+            return dp[i][buy][no];
+
+        int profit = 0;
+
+        if(buy == 0) // can buy
+        {
+            profit = max(
+                -prices[i] + f(i+1,1,no,prices,dp),
+                f(i+1,0,no,prices,dp)
+            );
         }
+        else // must sell
+        {
+            profit = max(
+                prices[i] + f(i+1,0,no+1,prices,dp),
+                f(i+1,1,no,prices,dp)
+            );
+        }
+
+        return dp[i][buy][no] = profit;
     }
 
     int maxProfit(vector<int>& prices) {
+
         int n = prices.size();
-        vector<vector<vector<int>>> dp(n, vector<vector<int>>(2, vector<int>(5, -1)));
-        return f(prices, dp, 0, 1, 0); 
+
+        vector<vector<vector<int>>> dp(n,
+            vector<vector<int>>(2, vector<int>(3,-1)));
+
+        return f(0,0,0,prices,dp);
     }
 };
