@@ -1,49 +1,59 @@
 class Solution {
 public:
-    int n,m;
-
-    int f(int i,int j,int k,vector<vector<int>>& coins,
-          vector<vector<vector<int>>>& dp){
-
-        if(i>=n || j>=m)
-            return INT_MIN;
-
-        if(i==n-1 && j==m-1){
-            if(coins[i][j] < 0 && k>0)
-                return 0;
-            return coins[i][j];
-        }
-
-        if(dp[i][j][k] != INT_MIN)
-            return dp[i][j][k];
-
-        int right = f(i,j+1,k,coins,dp);
-        int down  = f(i+1,j,k,coins,dp);
-
-        int best = max(right,down);
-
-        int ans = INT_MIN;
-
-        if(best != INT_MIN)
-            ans = coins[i][j] + best;
-
-        if(coins[i][j] < 0 && k>0){
-            int r = f(i,j+1,k-1,coins,dp);
-            int d = f(i+1,j,k-1,coins,dp);
-            ans = max(ans, max(r,d));
-        }
-
-        return dp[i][j][k] = ans;
-    }
-
     int maximumAmount(vector<vector<int>>& coins) {
 
-        n = coins.size();
-        m = coins[0].size();
+        int n = coins.size();
+        int m = coins[0].size();
 
         vector<vector<vector<int>>> dp(
             n, vector<vector<int>>(m, vector<int>(3, INT_MIN)));
 
-        return f(0,0,2,coins,dp);
+        // base cell
+        for(int k=0;k<3;k++){
+            if(coins[0][0] < 0 && k>0)
+                dp[0][0][k] = 0;
+            else
+                dp[0][0][k] = coins[0][0];
+        }
+
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+
+                if(i==0 && j==0) continue;
+
+                for(int k=0;k<3;k++){
+
+                    int bestPrev = INT_MIN;
+
+                    if(i>0)
+                        bestPrev = max(bestPrev, dp[i-1][j][k]);
+
+                    if(j>0)
+                        bestPrev = max(bestPrev, dp[i][j-1][k]);
+
+                    int ans = INT_MIN;
+
+                    if(bestPrev != INT_MIN)
+                        ans = coins[i][j] + bestPrev;
+
+                    if(coins[i][j] < 0 && k>0){
+
+                        int bestNeutral = INT_MIN;
+
+                        if(i>0)
+                            bestNeutral = max(bestNeutral, dp[i-1][j][k-1]);
+
+                        if(j>0)
+                            bestNeutral = max(bestNeutral, dp[i][j-1][k-1]);
+
+                        ans = max(ans, bestNeutral);
+                    }
+
+                    dp[i][j][k] = ans;
+                }
+            }
+        }
+
+        return dp[n-1][m-1][2];
     }
 };
