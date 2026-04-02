@@ -1,43 +1,45 @@
 class Solution {
 public:
-     int solve(int i, int days, vector<int>& job, vector<vector<int>>& dp)
-    {
-        int n = job.size();
-        
-        if(days == 1)
-        {
-            int mx = 0;
-            for(int j=i;j<n;j++)
-                mx = max(mx, job[j]);
-            return mx;
+
+    int f(vector<vector<int>> &dp, vector<int>& j, int d, int i){
+
+        int n = j.size();
+
+        if(d == 1){
+            int maxi = 0;
+            for(int x = i; x < n; x++){
+                maxi = max(maxi, j[x]);
+            }
+            return maxi;
         }
 
-        if(dp[i][days] != -1)
-            return dp[i][days];
+        if(dp[i][d] != -1)
+            return dp[i][d];
 
-        int maxJob = 0;
-        int ans = 1e9;
+        int maxi = 0;
+        int ans = INT_MAX;
 
-        for(int k=i; k<=n-days; k++)
-        {
-            maxJob = max(maxJob, job[k]);
+        for(int k = i; k <= n - d; k++){
 
-            int next = solve(k+1, days-1, job, dp);
+            maxi = max(maxi, j[k]);
 
-            ans = min(ans, maxJob + next);
+            int next = f(dp, j, d-1, k+1);
+
+            ans = min(ans, maxi + next);
         }
 
-        return dp[i][days] = ans;
+        return dp[i][d] = ans;
     }
-    int minDifficulty(vector<int>& job, int d) {
-        if(d>job.size())return -1;
-        if(d==job.size())return accumulate(job.begin(),job.end(),0);
-        int n = job.size();
 
+    int minDifficulty(vector<int>& j, int d) {
+
+        int n = j.size();
+
+        if(n < d)
+            return -1;
 
         vector<vector<int>> dp(n, vector<int>(d+1, -1));
 
-        return solve(0, d, job, dp);
-
+        return f(dp, j, d, 0);
     }
 };
