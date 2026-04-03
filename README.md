@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/sampoornverma/codes/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/sampoornverma/codes/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/sampoornverma/codes/tree/main/0416-partition-equal-subset-sum/) | Medium |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/sampoornverma/codes/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/sampoornverma/codes/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
 | [1335-minimum-difficulty-of-a-job-schedule](https://github.com/sampoornverma/codes/tree/main/1335-minimum-difficulty-of-a-job-schedule/) | Hard |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/sampoornverma/codes/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
@@ -113,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0075-sort-colors](https://github.com/sampoornverma/codes/tree/main/0075-sort-colors/) | Medium |
 | [0169-majority-element](https://github.com/sampoornverma/codes/tree/main/0169-majority-element/) | Easy |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/sampoornverma/codes/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/sampoornverma/codes/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sampoornverma/codes/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
@@ -155,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0416-partition-equal-subset-sum](https://github.com/sampoornverma/codes/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0509-fibonacci-number](https://github.com/sampoornverma/codes/tree/main/0509-fibonacci-number/) | Easy |
 | [1143-longest-common-subsequence](https://github.com/sampoornverma/codes/tree/main/1143-longest-common-subsequence/) | Medium |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/sampoornverma/codes/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1335-minimum-difficulty-of-a-job-schedule](https://github.com/sampoornverma/codes/tree/main/1335-minimum-difficulty-of-a-job-schedule/) | Hard |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/sampoornverma/codes/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/sampoornverma/codes/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
@@ -194,6 +197,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/sampoornverma/codes/tree/main/0300-longest-increasing-subsequence/) | Medium |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/sampoornverma/codes/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sampoornverma/codes/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/sampoornverma/codes/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/sampoornverma/codes/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
