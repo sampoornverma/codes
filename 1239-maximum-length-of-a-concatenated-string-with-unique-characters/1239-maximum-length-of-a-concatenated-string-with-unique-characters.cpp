@@ -1,73 +1,43 @@
 class Solution {
 public:
     
-    int maxi = 0;
-    
-    // function for checking uniqueness of the string
-    
     bool is_unique(string& str)
     {
-        int n = str.size();
+        vector<int> mp(26,0);
         
-        // mp will store the count of all the characters in string
-        
-        vector<int> mp(26, 0);
-        
-        for(int i = 0; i < n; i++)
+        for(char c : str)
         {
-            mp[str[i] - 'a']++;
-            
-            // if we found duplicates return false
-            
-            if(mp[str[i] - 'a'] > 1)
+            mp[c-'a']++;
+            if(mp[c-'a'] > 1)
                 return false;
         }
         
         return true;
     }
-    
-    void helper(vector<string>& arr, int i, int n, string curr)
+
+    unordered_map<string,int> mp;
+
+    int f(vector<string>& arr, int i, int n, string curr)
     {
-        // if we have got duplicate int our result then simply return
-        
-        if(is_unique(curr) == false)
-            return;
-        
-        // base case
-        
+        if(!is_unique(curr))
+            return 0;
+
+        if(mp.find(curr) != mp.end())
+            return mp[curr];
+
         if(i == n)
-        {
-            // update maxi
-            
-            if(curr.size() > maxi)
-            {
-                int size = curr.size();
-                
-                maxi = max(maxi, size);
-            }
-            
-            return;
-        }
-        
-        // we have two options either include the curr string or exclude
-        
-        // include the curr string
-        
-        helper(arr, i + 1, n, curr + arr[i]);
-        
-        // exclude the curr string
-        
-        helper(arr, i + 1, n, curr);
+            return curr.length();
+
+        int exclude = f(arr, i+1, n, curr);
+
+        int include = f(arr, i+1, n, curr + arr[i]);
+
+        return mp[curr] = max(include, exclude);
     }
     
-    int maxLength(vector<string>& arr) {
-        
+    int maxLength(vector<string>& arr) 
+    {
         int n = arr.size();
-        
-        // call helper function
-        
-        helper(arr, 0, n, "");
-        
-        return maxi;
+        return f(arr, 0, n, "");
     }
 };
