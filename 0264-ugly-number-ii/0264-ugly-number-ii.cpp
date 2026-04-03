@@ -8,9 +8,9 @@ public:
         pq.push(1);
         seen.insert(1);
 
-        long curr = 1;
+        int curr = 1;
 
-        for(int i = 0; i < n; i++)
+        while(n--)
         {
             curr = pq.top();
             pq.pop();
