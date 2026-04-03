@@ -1,64 +1,82 @@
+/*     Scroll below to see JAVA code also    */
+/*
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=niOPy-UHahQ
+    Company Tags                : Will update later
+    Leetcode Link               : https://leetcode.com/problems/maximum-walls-destroyed-by-robots/description/
+*/
+
+
+/**************************************************************** C++ ****************************************************************/
+//Approach (Recursion + Memoization + Binary Search)
+//T.C : O(n * log(w) + nlogn + wlogw), n = robots.size(), w = walls.size()
+//S.C : O(n)
 class Solution {
 public:
-    int maxWalls(vector<int>& robots, vector<int>& distance,
-                 vector<int>& walls) {
+    typedef pair<int, int> P;
+    vector<vector<int>> t;
+
+    int countWalls(vector<int>& walls, int l, int r) {
+        int left  = lower_bound(begin(walls), end(walls), l) - begin(walls);
+        int right = upper_bound(begin(walls), end(walls), r) - begin(walls);
+
+        return right - left;
+
+    }
+
+    int solve(vector<int>& walls, vector<P>& roboDist, vector<P>& range, int i, int prevDir) {
+
+        if(i == roboDist.size())
+            return 0;
+        
+        if(t[i][prevDir] != -1)
+            return t[i][prevDir];
+
+        int leftStart = range[i].first;
+
+        if(prevDir == 1) { //prev robot fired bullet rtowards right
+            leftStart = max(leftStart, range[i-1].second + 1);
+        }
+
+        int leftTake = countWalls(walls, leftStart, roboDist[i].first) 
+                        + solve(walls, roboDist, range, i+1, 0);
+                    
+        int rightTake = countWalls(walls, roboDist[i].first, range[i].second) 
+                        + solve(walls, roboDist, range, i+1, 1);
+
+        
+        return t[i][prevDir] = max(leftTake, rightTake);
+    }
+
+    int maxWalls(vector<int>& robots, vector<int>& distance, vector<int>& walls) {
         int n = robots.size();
-        int pos1, pos2, pos3, leftPos, rightPos;
-        vector<int> left(n, 0), right(n, 0), num(n, 0);
-        unordered_map<int, int> robotsToDistance;
+
+        vector<P> roboDist(n);
         for (int i = 0; i < n; i++) {
-            robotsToDistance[robots[i]] = distance[i];
+            roboDist[i] = {robots[i], distance[i]};
         }
-        sort(robots.begin(), robots.end());
-        sort(walls.begin(), walls.end());
-        for (int i = 0; i < n; i++) {
-            pos1 = upper_bound(walls.begin(), walls.end(), robots[i]) -
-                   walls.begin();
-            if (i >= 1) {
-                leftPos =
-                    lower_bound(walls.begin(), walls.end(),
-                                max(robots[i] - robotsToDistance[robots[i]],
-                                    robots[i - 1] + 1)) -
-                    walls.begin();
-            } else {
-                leftPos = lower_bound(walls.begin(), walls.end(),
-                                      robots[i] - robotsToDistance[robots[i]]) -
-                          walls.begin();
-            }
-            left[i] = pos1 - leftPos;
-            if (i < n - 1) {
-                rightPos =
-                    upper_bound(walls.begin(), walls.end(),
-                                min(robots[i] + robotsToDistance[robots[i]],
-                                    robots[i + 1] - 1)) -
-                    walls.begin();
-            } else {
-                rightPos =
-                    upper_bound(walls.begin(), walls.end(),
-                                robots[i] + robotsToDistance[robots[i]]) -
-                    walls.begin();
-            }
-            pos2 = lower_bound(walls.begin(), walls.end(), robots[i]) -
-                   walls.begin();
-            right[i] = rightPos - pos2;
-            if (i == 0) {
-                continue;
-            }
-            pos3 = lower_bound(walls.begin(), walls.end(), robots[i - 1]) -
-                   walls.begin();
-            num[i] = pos1 - pos3;
+
+        sort(begin(roboDist), end(roboDist));
+        sort(begin(walls), end(walls));
+
+        //Prepare range vector for each robot
+        vector<P> range(n);
+
+        for(int i = 0; i < n; i++) {
+            int pos = roboDist[i].first;
+            int d   = roboDist[i].second;
+
+            int leftLimit  = (i == 0)   ? 1   : roboDist[i-1].first+1;
+            int rightLimit = (i == n-1) ? 1e9 : roboDist[i+1].first-1;
+
+            int L = max(pos - d, leftLimit);
+            int R = min(pos + d, rightLimit);
+
+            range[i] = {L, R};
         }
-        int subLeft, subRight, currentLeft, currentRight;
-        subLeft = left[0];
-        subRight = right[0];
-        for (int i = 1; i < n; i++) {
-            currentLeft =
-                max(subLeft + left[i], subRight - right[i - 1] +
-                                           min(left[i] + right[i - 1], num[i]));
-            currentRight = max(subLeft + right[i], subRight + right[i]);
-            subLeft = currentLeft;
-            subRight = currentRight;
-        }
-        return max(subLeft, subRight);
+
+        t.assign(n+1, vector<int>(2, -1));
+
+        //prev = 0/1 (previious robot hit buttlet to left/right)
+        return solve(walls, roboDist, range, 0, 0);
     }
 };
