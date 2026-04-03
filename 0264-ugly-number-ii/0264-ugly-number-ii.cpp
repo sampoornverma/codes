@@ -8,7 +8,7 @@ public:
         pq.push(1);
         seen.insert(1);
 
-        int curr = 1;
+        long curr = 1;
 
         while(n--)
         {
