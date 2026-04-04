@@ -1,27 +1,27 @@
 class Solution {
 public:
     string decodeCiphertext(string encodedText, int rows) {
+
         int n = encodedText.size();
-        if (rows == 1)
-            return encodedText;
-
         int cols = n / rows;
-        string res;
-        res.reserve(n);
 
-        for (int c = 0; c < cols; ++c) {
-            int r = 0, j = c;
-            while (r < rows && j < cols) {
-                res += encodedText[r * cols + j];
-                ++r;
-                ++j;
+        string ans = "";
+
+        for(int start = 0; start < cols; start++) {
+
+            int r = 0;
+            int c = start;
+
+            while(r < rows && c < cols) {
+                ans += encodedText[r * cols + c];
+                r++;
+                c++;
             }
         }
 
-        while (!res.empty() && res.back() == ' ') {
-            res.pop_back();
-        }
+        while(!ans.empty() && ans.back() == ' ')
+            ans.pop_back();
 
-        return res;
+        return ans;
     }
 };
