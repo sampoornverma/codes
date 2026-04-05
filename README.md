@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1727-largest-submatrix-with-rearrangements](https://github.com/sampoornverma/codes/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/sampoornverma/codes/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
+| [1964-find-the-longest-valid-obstacle-course-at-each-position](https://github.com/sampoornverma/codes/tree/main/1964-find-the-longest-valid-obstacle-course-at-each-position/) | Hard |
 | [1980-find-unique-binary-string](https://github.com/sampoornverma/codes/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sampoornverma/codes/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2218-maximum-value-of-k-coins-from-piles](https://github.com/sampoornverma/codes/tree/main/2218-maximum-value-of-k-coins-from-piles/) | Hard |
@@ -226,6 +227,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/sampoornverma/codes/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/sampoornverma/codes/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
+| [1964-find-the-longest-valid-obstacle-course-at-each-position](https://github.com/sampoornverma/codes/tree/main/1964-find-the-longest-valid-obstacle-course-at-each-position/) | Hard |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sampoornverma/codes/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/sampoornverma/codes/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/sampoornverma/codes/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
@@ -313,4 +315,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2751-robot-collisions](https://github.com/sampoornverma/codes/tree/main/2751-robot-collisions/) | Hard |
+## Binary Indexed Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1964-find-the-longest-valid-obstacle-course-at-each-position](https://github.com/sampoornverma/codes/tree/main/1964-find-the-longest-valid-obstacle-course-at-each-position/) | Hard |
 <!---LeetCode Topics End-->
