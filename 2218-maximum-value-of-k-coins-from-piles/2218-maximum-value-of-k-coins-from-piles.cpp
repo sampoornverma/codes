@@ -1,32 +1,28 @@
 class Solution {
 public:
-
-    int f(int i, int k, vector<vector<int>>& piles, vector<vector<int>>& dp){
-
-        if(i == piles.size() || k == 0)
-            return 0;
-
-        if(dp[i][k] != -1)
-            return dp[i][k];
-
-        int ans = f(i+1, k, piles, dp); // skip this pile
-
-        int sum = 0;
-
-        for(int j = 0; j < piles[i].size() && j < k; j++){
-            sum += piles[i][j];
-            ans = max(ans, sum + f(i+1, k-j-1, piles, dp));
-        }
-
-        return dp[i][k] = ans;
-    }
-
     int maxValueOfCoins(vector<vector<int>>& piles, int k) {
 
         int n = piles.size();
 
-        vector<vector<int>> dp(n, vector<int>(k+1, -1));
+        vector<vector<int>> dp(n+1, vector<int>(k+1,0));
 
-        return f(0, k, piles, dp);
+        for(int i = 1; i <= n; i++){
+
+            for(int j = 0; j <= k; j++){
+
+                dp[i][j] = dp[i-1][j];
+
+                int sum = 0;
+
+                for(int x = 0; x < piles[i-1].size() && x < j; x++){
+                    sum += piles[i-1][x];
+
+                    dp[i][j] = max(dp[i][j],
+                                   sum + dp[i-1][j-x-1]);
+                }
+            }
+        }
+
+        return dp[n][k];
     }
 };
