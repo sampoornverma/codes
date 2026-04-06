@@ -59,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0416-partition-equal-subset-sum](https://github.com/sampoornverma/codes/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/sampoornverma/codes/tree/main/0874-walking-robot-simulation/) | Medium |
 | [0983-minimum-cost-for-tickets](https://github.com/sampoornverma/codes/tree/main/0983-minimum-cost-for-tickets/) | Medium |
+| [1035-uncrossed-lines](https://github.com/sampoornverma/codes/tree/main/1035-uncrossed-lines/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/sampoornverma/codes/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/sampoornverma/codes/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
 | [1335-minimum-difficulty-of-a-job-schedule](https://github.com/sampoornverma/codes/tree/main/1335-minimum-difficulty-of-a-job-schedule/) | Hard |
@@ -181,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0509-fibonacci-number](https://github.com/sampoornverma/codes/tree/main/0509-fibonacci-number/) | Easy |
 | [0790-domino-and-tromino-tiling](https://github.com/sampoornverma/codes/tree/main/0790-domino-and-tromino-tiling/) | Medium |
 | [0983-minimum-cost-for-tickets](https://github.com/sampoornverma/codes/tree/main/0983-minimum-cost-for-tickets/) | Medium |
+| [1035-uncrossed-lines](https://github.com/sampoornverma/codes/tree/main/1035-uncrossed-lines/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/sampoornverma/codes/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/sampoornverma/codes/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1335-minimum-difficulty-of-a-job-schedule](https://github.com/sampoornverma/codes/tree/main/1335-minimum-difficulty-of-a-job-schedule/) | Hard |
