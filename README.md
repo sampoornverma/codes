@@ -69,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/sampoornverma/codes/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1639-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/sampoornverma/codes/tree/main/1639-number-of-ways-to-form-a-target-string-given-a-dictionary/) | Hard |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/sampoornverma/codes/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
+| [1848-minimum-distance-to-the-target-element](https://github.com/sampoornverma/codes/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/sampoornverma/codes/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1964-find-the-longest-valid-obstacle-course-at-each-position](https://github.com/sampoornverma/codes/tree/main/1964-find-the-longest-valid-obstacle-course-at-each-position/) | Hard |
