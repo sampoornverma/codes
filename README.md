@@ -59,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0413-arithmetic-slices](https://github.com/sampoornverma/codes/tree/main/0413-arithmetic-slices/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/sampoornverma/codes/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/sampoornverma/codes/tree/main/0874-walking-robot-simulation/) | Medium |
+| [0877-stone-game](https://github.com/sampoornverma/codes/tree/main/0877-stone-game/) | Medium |
 | [0983-minimum-cost-for-tickets](https://github.com/sampoornverma/codes/tree/main/0983-minimum-cost-for-tickets/) | Medium |
 | [1035-uncrossed-lines](https://github.com/sampoornverma/codes/tree/main/1035-uncrossed-lines/) | Medium |
 | [1140-stone-game-ii](https://github.com/sampoornverma/codes/tree/main/1140-stone-game-ii/) | Medium |
@@ -191,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0416-partition-equal-subset-sum](https://github.com/sampoornverma/codes/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0509-fibonacci-number](https://github.com/sampoornverma/codes/tree/main/0509-fibonacci-number/) | Easy |
 | [0790-domino-and-tromino-tiling](https://github.com/sampoornverma/codes/tree/main/0790-domino-and-tromino-tiling/) | Medium |
+| [0877-stone-game](https://github.com/sampoornverma/codes/tree/main/0877-stone-game/) | Medium |
 | [0983-minimum-cost-for-tickets](https://github.com/sampoornverma/codes/tree/main/0983-minimum-cost-for-tickets/) | Medium |
 | [1035-uncrossed-lines](https://github.com/sampoornverma/codes/tree/main/1035-uncrossed-lines/) | Medium |
 | [1140-stone-game-ii](https://github.com/sampoornverma/codes/tree/main/1140-stone-game-ii/) | Medium |
@@ -283,6 +285,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0264-ugly-number-ii](https://github.com/sampoornverma/codes/tree/main/0264-ugly-number-ii/) | Medium |
 | [0279-perfect-squares](https://github.com/sampoornverma/codes/tree/main/0279-perfect-squares/) | Medium |
 | [0509-fibonacci-number](https://github.com/sampoornverma/codes/tree/main/0509-fibonacci-number/) | Easy |
+| [0877-stone-game](https://github.com/sampoornverma/codes/tree/main/0877-stone-game/) | Medium |
 | [1140-stone-game-ii](https://github.com/sampoornverma/codes/tree/main/1140-stone-game-ii/) | Medium |
 | [1622-fancy-sequence](https://github.com/sampoornverma/codes/tree/main/1622-fancy-sequence/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
@@ -343,5 +346,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Game Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0877-stone-game](https://github.com/sampoornverma/codes/tree/main/0877-stone-game/) | Medium |
 | [1140-stone-game-ii](https://github.com/sampoornverma/codes/tree/main/1140-stone-game-ii/) | Medium |
 <!---LeetCode Topics End-->
