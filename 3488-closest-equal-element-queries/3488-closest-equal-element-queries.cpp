@@ -1,10 +1,20 @@
 class Solution {
 public:
+    int findindex(vector<int>& v, int q) {
+        int l = 0, h = v.size() - 1;
+        while (l <= h) {
+            int mid = (l + h) / 2;
+            if (v[mid] == q) return mid;
+            else if (v[mid] < q) l = mid + 1;
+            else h = mid - 1;
+        }
+        return l; // lower_bound behavior
+    }
+
     vector<int> solveQueries(vector<int>& nums, vector<int>& queries) {
         int n = nums.size();
         unordered_map<int, vector<int>> mp;
 
-        // store indices
         for (int i = 0; i < n; i++) {
             mp[nums[i]].push_back(i);
         }
@@ -14,24 +24,24 @@ public:
         for (int q : queries) {
             vector<int>& v = mp[nums[q]];
 
-            // only one occurrence
             if (v.size() == 1) {
                 ans.push_back(-1);
                 continue;
             }
 
-            int pos = lower_bound(v.begin(), v.end(), q) - v.begin();
-            int res = INT_MAX;
+            int x = findindex(v, q);
 
-            int left = v[(pos - 1 + v.size()) % v.size()];
-            int d1 = abs(q - left);
-            res = min(res, min(d1, n - d1));
+            // circular previous
+            int prev = v[(x - 1 + v.size()) % v.size()];
+            int d1 = abs(q - prev);
+            d1 = min(d1, n - d1);
 
-            int right = v[(pos + 1) % v.size()];
-            int d2 = abs(q - right);
-            res = min(res, min(d2, n - d2));
+            // circular next
+            int next = v[(x + 1) % v.size()];
+            int d2 = abs(q - next);
+            d2 = min(d2, n - d2);
 
-            ans.push_back(res);
+            ans.push_back(min(d1, d2));
         }
 
         return ans;
