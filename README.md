@@ -82,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sampoornverma/codes/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2140-solving-questions-with-brainpower](https://github.com/sampoornverma/codes/tree/main/2140-solving-questions-with-brainpower/) | Medium |
 | [2218-maximum-value-of-k-coins-from-piles](https://github.com/sampoornverma/codes/tree/main/2218-maximum-value-of-k-coins-from-piles/) | Hard |
+| [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/sampoornverma/codes/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/sampoornverma/codes/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/sampoornverma/codes/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1727-largest-submatrix-with-rearrangements](https://github.com/sampoornverma/codes/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/sampoornverma/codes/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
+| [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2573-find-the-string-with-lcp](https://github.com/sampoornverma/codes/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2906-construct-product-matrix](https://github.com/sampoornverma/codes/tree/main/2906-construct-product-matrix/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/sampoornverma/codes/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
@@ -124,15 +126,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0110-balanced-binary-tree](https://github.com/sampoornverma/codes/tree/main/0110-balanced-binary-tree/) | Easy |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/sampoornverma/codes/tree/main/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
+| [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0279-perfect-squares](https://github.com/sampoornverma/codes/tree/main/0279-perfect-squares/) | Medium |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/sampoornverma/codes/tree/main/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
+| [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/sampoornverma/codes/tree/main/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
+| [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/sampoornverma/codes/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -219,6 +224,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sampoornverma/codes/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2140-solving-questions-with-brainpower](https://github.com/sampoornverma/codes/tree/main/2140-solving-questions-with-brainpower/) | Medium |
 | [2218-maximum-value-of-k-coins-from-piles](https://github.com/sampoornverma/codes/tree/main/2218-maximum-value-of-k-coins-from-piles/) | Hard |
+| [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2463-minimum-total-distance-traveled](https://github.com/sampoornverma/codes/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2573-find-the-string-with-lcp](https://github.com/sampoornverma/codes/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/sampoornverma/codes/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
@@ -325,6 +331,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/sampoornverma/codes/tree/main/0070-climbing-stairs/) | Easy |
 | [0509-fibonacci-number](https://github.com/sampoornverma/codes/tree/main/0509-fibonacci-number/) | Easy |
+| [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -364,4 +371,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0877-stone-game](https://github.com/sampoornverma/codes/tree/main/0877-stone-game/) | Medium |
 | [1140-stone-game-ii](https://github.com/sampoornverma/codes/tree/main/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/sampoornverma/codes/tree/main/1406-stone-game-iii/) | Hard |
+## Topological Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 <!---LeetCode Topics End-->
