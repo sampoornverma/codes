@@ -233,6 +233,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0413-arithmetic-slices](https://github.com/sampoornverma/codes/tree/main/0413-arithmetic-slices/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/sampoornverma/codes/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0509-fibonacci-number](https://github.com/sampoornverma/codes/tree/main/0509-fibonacci-number/) | Easy |
+| [0788-rotated-digits](https://github.com/sampoornverma/codes/tree/main/0788-rotated-digits/) | Medium |
 | [0790-domino-and-tromino-tiling](https://github.com/sampoornverma/codes/tree/main/0790-domino-and-tromino-tiling/) | Medium |
 | [0877-stone-game](https://github.com/sampoornverma/codes/tree/main/0877-stone-game/) | Medium |
 | [0983-minimum-cost-for-tickets](https://github.com/sampoornverma/codes/tree/main/0983-minimum-cost-for-tickets/) | Medium |
@@ -342,6 +343,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0279-perfect-squares](https://github.com/sampoornverma/codes/tree/main/0279-perfect-squares/) | Medium |
 | [0396-rotate-function](https://github.com/sampoornverma/codes/tree/main/0396-rotate-function/) | Medium |
 | [0509-fibonacci-number](https://github.com/sampoornverma/codes/tree/main/0509-fibonacci-number/) | Easy |
+| [0788-rotated-digits](https://github.com/sampoornverma/codes/tree/main/0788-rotated-digits/) | Medium |
 | [0877-stone-game](https://github.com/sampoornverma/codes/tree/main/0877-stone-game/) | Medium |
 | [1140-stone-game-ii](https://github.com/sampoornverma/codes/tree/main/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/sampoornverma/codes/tree/main/1406-stone-game-iii/) | Hard |
