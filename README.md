@@ -71,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1140-stone-game-ii](https://github.com/sampoornverma/codes/tree/main/1140-stone-game-ii/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/sampoornverma/codes/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/sampoornverma/codes/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
+| [1306-jump-game-iii](https://github.com/sampoornverma/codes/tree/main/1306-jump-game-iii/) | Medium |
 | [1335-minimum-difficulty-of-a-job-schedule](https://github.com/sampoornverma/codes/tree/main/1335-minimum-difficulty-of-a-job-schedule/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1402-reducing-dishes](https://github.com/sampoornverma/codes/tree/main/1402-reducing-dishes/) | Hard |
@@ -153,6 +154,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0110-balanced-binary-tree](https://github.com/sampoornverma/codes/tree/main/0110-balanced-binary-tree/) | Easy |
+| [1306-jump-game-iii](https://github.com/sampoornverma/codes/tree/main/1306-jump-game-iii/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/sampoornverma/codes/tree/main/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/sampoornverma/codes/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -162,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0279-perfect-squares](https://github.com/sampoornverma/codes/tree/main/0279-perfect-squares/) | Medium |
+| [1306-jump-game-iii](https://github.com/sampoornverma/codes/tree/main/1306-jump-game-iii/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/sampoornverma/codes/tree/main/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/sampoornverma/codes/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
