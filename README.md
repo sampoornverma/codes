@@ -101,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/sampoornverma/codes/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/sampoornverma/codes/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/sampoornverma/codes/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
+| [2540-minimum-common-value](https://github.com/sampoornverma/codes/tree/main/2540-minimum-common-value/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/sampoornverma/codes/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2615-sum-of-distances](https://github.com/sampoornverma/codes/tree/main/2615-sum-of-distances/) | Medium |
 | [2751-robot-collisions](https://github.com/sampoornverma/codes/tree/main/2751-robot-collisions/) | Hard |
@@ -183,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/sampoornverma/codes/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sampoornverma/codes/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/sampoornverma/codes/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
+| [2540-minimum-common-value](https://github.com/sampoornverma/codes/tree/main/2540-minimum-common-value/) | Easy |
 | [3643-flip-square-submatrix-vertically](https://github.com/sampoornverma/codes/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
@@ -212,6 +214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0874-walking-robot-simulation](https://github.com/sampoornverma/codes/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/sampoornverma/codes/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/sampoornverma/codes/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2540-minimum-common-value](https://github.com/sampoornverma/codes/tree/main/2540-minimum-common-value/) | Easy |
 | [2615-sum-of-distances](https://github.com/sampoornverma/codes/tree/main/2615-sum-of-distances/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/sampoornverma/codes/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3488-closest-equal-element-queries](https://github.com/sampoornverma/codes/tree/main/3488-closest-equal-element-queries/) | Medium |
@@ -324,6 +327,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/sampoornverma/codes/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1964-find-the-longest-valid-obstacle-course-at-each-position](https://github.com/sampoornverma/codes/tree/main/1964-find-the-longest-valid-obstacle-course-at-each-position/) | Hard |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sampoornverma/codes/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
+| [2540-minimum-common-value](https://github.com/sampoornverma/codes/tree/main/2540-minimum-common-value/) | Easy |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/sampoornverma/codes/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/sampoornverma/codes/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3488-closest-equal-element-queries](https://github.com/sampoornverma/codes/tree/main/3488-closest-equal-element-queries/) | Medium |
