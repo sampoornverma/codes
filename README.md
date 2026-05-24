@@ -74,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/sampoornverma/codes/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
 | [1306-jump-game-iii](https://github.com/sampoornverma/codes/tree/main/1306-jump-game-iii/) | Medium |
 | [1335-minimum-difficulty-of-a-job-schedule](https://github.com/sampoornverma/codes/tree/main/1335-minimum-difficulty-of-a-job-schedule/) | Hard |
+| [1340-jump-game-v](https://github.com/sampoornverma/codes/tree/main/1340-jump-game-v/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1402-reducing-dishes](https://github.com/sampoornverma/codes/tree/main/1402-reducing-dishes/) | Hard |
 | [1406-stone-game-iii](https://github.com/sampoornverma/codes/tree/main/1406-stone-game-iii/) | Hard |
@@ -194,6 +195,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/sampoornverma/codes/tree/main/0075-sort-colors/) | Medium |
 | [0169-majority-element](https://github.com/sampoornverma/codes/tree/main/0169-majority-element/) | Easy |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/sampoornverma/codes/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
+| [1340-jump-game-v](https://github.com/sampoornverma/codes/tree/main/1340-jump-game-v/) | Hard |
 | [1402-reducing-dishes](https://github.com/sampoornverma/codes/tree/main/1402-reducing-dishes/) | Hard |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/sampoornverma/codes/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/sampoornverma/codes/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
@@ -267,6 +269,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1235-maximum-profit-in-job-scheduling](https://github.com/sampoornverma/codes/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/sampoornverma/codes/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
 | [1335-minimum-difficulty-of-a-job-schedule](https://github.com/sampoornverma/codes/tree/main/1335-minimum-difficulty-of-a-job-schedule/) | Hard |
+| [1340-jump-game-v](https://github.com/sampoornverma/codes/tree/main/1340-jump-game-v/) | Hard |
 | [1402-reducing-dishes](https://github.com/sampoornverma/codes/tree/main/1402-reducing-dishes/) | Hard |
 | [1406-stone-game-iii](https://github.com/sampoornverma/codes/tree/main/1406-stone-game-iii/) | Hard |
 | [1416-restore-the-array](https://github.com/sampoornverma/codes/tree/main/1416-restore-the-array/) | Hard |
