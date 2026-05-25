@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/sampoornverma/codes/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/sampoornverma/codes/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [1869-longer-contiguous-segments-of-ones-than-zeros](https://github.com/sampoornverma/codes/tree/main/1869-longer-contiguous-segments-of-ones-than-zeros/) | Easy |
+| [1871-jump-game-vii](https://github.com/sampoornverma/codes/tree/main/1871-jump-game-vii/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/sampoornverma/codes/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/sampoornverma/codes/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/sampoornverma/codes/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
@@ -276,6 +277,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/sampoornverma/codes/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/sampoornverma/codes/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1639-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/sampoornverma/codes/tree/main/1639-number-of-ways-to-form-a-target-string-given-a-dictionary/) | Hard |
+| [1871-jump-game-vii](https://github.com/sampoornverma/codes/tree/main/1871-jump-game-vii/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/sampoornverma/codes/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sampoornverma/codes/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2140-solving-questions-with-brainpower](https://github.com/sampoornverma/codes/tree/main/2140-solving-questions-with-brainpower/) | Medium |
@@ -295,6 +297,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0413-arithmetic-slices](https://github.com/sampoornverma/codes/tree/main/0413-arithmetic-slices/) | Medium |
+| [1871-jump-game-vii](https://github.com/sampoornverma/codes/tree/main/1871-jump-game-vii/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/sampoornverma/codes/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
@@ -308,6 +311,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/sampoornverma/codes/tree/main/0238-product-of-array-except-self/) | Medium |
 | [1140-stone-game-ii](https://github.com/sampoornverma/codes/tree/main/1140-stone-game-ii/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/sampoornverma/codes/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
+| [1871-jump-game-vii](https://github.com/sampoornverma/codes/tree/main/1871-jump-game-vii/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2218-maximum-value-of-k-coins-from-piles](https://github.com/sampoornverma/codes/tree/main/2218-maximum-value-of-k-coins-from-piles/) | Hard |
 | [2615-sum-of-distances](https://github.com/sampoornverma/codes/tree/main/2615-sum-of-distances/) | Medium |
