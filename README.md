@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2833-furthest-point-from-origin](https://github.com/sampoornverma/codes/tree/main/2833-furthest-point-from-origin/) | Easy |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/sampoornverma/codes/tree/main/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/sampoornverma/codes/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3093-longest-common-suffix-queries](https://github.com/sampoornverma/codes/tree/main/3093-longest-common-suffix-queries/) | Hard |
 | [3120-count-the-number-of-special-characters-i](https://github.com/sampoornverma/codes/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3474-lexicographically-smallest-generated-string](https://github.com/sampoornverma/codes/tree/main/3474-lexicographically-smallest-generated-string/) | Hard |
 ## Recursion
@@ -114,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2906-construct-product-matrix](https://github.com/sampoornverma/codes/tree/main/2906-construct-product-matrix/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/sampoornverma/codes/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/sampoornverma/codes/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
+| [3093-longest-common-suffix-queries](https://github.com/sampoornverma/codes/tree/main/3093-longest-common-suffix-queries/) | Hard |
 | [3225-maximum-score-from-grid-operations](https://github.com/sampoornverma/codes/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/sampoornverma/codes/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/sampoornverma/codes/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
@@ -469,4 +471,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/sampoornverma/codes/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3093-longest-common-suffix-queries](https://github.com/sampoornverma/codes/tree/main/3093-longest-common-suffix-queries/) | Hard |
 <!---LeetCode Topics End-->
