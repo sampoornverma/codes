@@ -1,25 +1,33 @@
 class Solution {
 public:
-    bool ob(int n,int m,vector<vector<int>>& o){
-        return o[m][n];
+
+    int f(int i,int j,vector<vector<int>>& o,
+          vector<vector<int>>& dp){
+
+        if(i>=o.size() || j>=o[0].size())
+            return 0;
+
+        if(o[i][j]==1)
+            return 0;
+
+        if(i==o.size()-1 && j==o[0].size()-1)
+            return 1;
+
+        if(dp[i][j]!=-1)
+            return dp[i][j];
+
+        return dp[i][j] =
+            f(i+1,j,o,dp) +
+            f(i,j+1,o,dp);
     }
+
     int uniquePathsWithObstacles(vector<vector<int>>& o) {
-        int m=o.size();
-        int n=o[0].size();
-        if(  n>0 && m>0 && o[m-1][n-1]==1)return 0;
-      vector<vector<int>> dp(m,vector<int>(n,0));
-       dp[0][0]=1;
-       for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-            if(ob(i,j,o))continue;
-            if(i==0 && j==0)continue;
-            int up=0;
-            if(j-1>=0 && !ob(i,j-1,o))up=dp[j-1][i];
-            int left=0;
-            if(i-1>=0 && !ob(i-1,j,o))left=dp[j][i-1];
-            dp[j][i]=up+left;
-        }
-       }
-       return dp[m-1][n-1];   
+
+        vector<vector<int>> dp(
+            o.size(),
+            vector<int>(o[0].size(),-1)
+        );
+
+        return f(0,0,o,dp);
     }
 };
