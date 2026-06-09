@@ -1,46 +1,39 @@
 class Solution {
 public:
-    #define MOD 1000000007
-
-int findWaysHelper(int i, int k, int n, vector<int>& arr, vector<vector<int>>& dp)
+    int f(int i,int amount,
+      vector<int>& coins,
+      vector<vector<int>>& dp)
 {
+    if(amount == 0) return 1;
 
-    // Not a valid case as sum becomes greater than what we want.
-    if (k < 0)
-    {
+    if(i >= coins.size())
         return 0;
-    }
 
-    // If we traverse the whole array.
-    if (i == n)
-    {
-        // Sum becomes equal to the target sum.
-        if (k == 0)
-        {
-            return 1;
-        }
-        return 0;
-    }
+    if(dp[i][amount] != -1)
+        return dp[i][amount];
 
-    // Return the value if we already have calculated.
-    if (dp[i][k] != -1)
-    {
-        return dp[i][k];
-    }
+    int take = 0;
 
-    // If we take the ith element.
-    int ans = findWaysHelper(i , k - arr[i], n, arr, dp);
+    if(coins[i] <= amount)
+        take = f(i, amount - coins[i], coins, dp);
 
-    // If we do not take the ith element.
-    ans += findWaysHelper(i + 1, k, n, arr, dp);
+    int notTake =
+        f(i + 1, amount, coins, dp);
 
-    // Store the answer in dp and then return.
-    dp[i][k] = ans ;
-    return dp[i][k];
+    return dp[i][amount] =
+           take + notTake;
 }
-    int change(int k, vector<int>& arr) {
-       int n = arr.size();
-    vector<vector<int>> dp(n, vector<int>(k + 1, -1));
-    return findWaysHelper(0, k, n, arr, dp); 
-    }
+    int change(int amount, vector<int>& coins) {
+
+    vector<vector<int>> dp(
+
+        coins.size(),
+
+        vector<int>(amount + 1, -1)
+
+    );
+
+    return f(0, amount, coins, dp);
+
+}
 };
