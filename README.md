@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0118-pascals-triangle](https://github.com/sampoornverma/codes/tree/main/0118-pascals-triangle/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sampoornverma/codes/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/sampoornverma/codes/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
+| [0134-gas-station](https://github.com/sampoornverma/codes/tree/main/0134-gas-station/) | Medium |
 | [0135-candy](https://github.com/sampoornverma/codes/tree/main/0135-candy/) | Hard |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sampoornverma/codes/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/sampoornverma/codes/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
@@ -405,6 +406,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0044-wildcard-matching](https://github.com/sampoornverma/codes/tree/main/0044-wildcard-matching/) | Hard |
 | [0055-jump-game](https://github.com/sampoornverma/codes/tree/main/0055-jump-game/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sampoornverma/codes/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
+| [0134-gas-station](https://github.com/sampoornverma/codes/tree/main/0134-gas-station/) | Medium |
 | [0135-candy](https://github.com/sampoornverma/codes/tree/main/0135-candy/) | Hard |
 | [0435-non-overlapping-intervals](https://github.com/sampoornverma/codes/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [1402-reducing-dishes](https://github.com/sampoornverma/codes/tree/main/1402-reducing-dishes/) | Hard |
