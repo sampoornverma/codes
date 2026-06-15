@@ -64,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/sampoornverma/codes/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/sampoornverma/codes/tree/main/0064-minimum-path-sum/) | Medium |
 | [0075-sort-colors](https://github.com/sampoornverma/codes/tree/main/0075-sort-colors/) | Medium |
+| [0078-subsets](https://github.com/sampoornverma/codes/tree/main/0078-subsets/) | Medium |
 | [0118-pascals-triangle](https://github.com/sampoornverma/codes/tree/main/0118-pascals-triangle/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sampoornverma/codes/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/sampoornverma/codes/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
@@ -364,6 +365,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0039-combination-sum](https://github.com/sampoornverma/codes/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/sampoornverma/codes/tree/main/0040-combination-sum-ii/) | Medium |
+| [0078-subsets](https://github.com/sampoornverma/codes/tree/main/0078-subsets/) | Medium |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/sampoornverma/codes/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/sampoornverma/codes/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/sampoornverma/codes/tree/main/1980-find-unique-binary-string/) | Medium |
@@ -389,6 +391,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0078-subsets](https://github.com/sampoornverma/codes/tree/main/0078-subsets/) | Medium |
 | [1009-complement-of-base-10-integer](https://github.com/sampoornverma/codes/tree/main/1009-complement-of-base-10-integer/) | Easy |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/sampoornverma/codes/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sampoornverma/codes/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
