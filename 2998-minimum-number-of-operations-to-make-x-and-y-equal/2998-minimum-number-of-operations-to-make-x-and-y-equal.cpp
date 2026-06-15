@@ -1,34 +1,38 @@
 class Solution {
 public:
-    unordered_map<int,int> memo;
-
-    int solve(int x, int y) {
-        if (x <= y)
-            return y - x;
-
-        if (memo.count(x))
-            return memo[x];
-
-        int ans = x - y;  
-        int r5 = x % 5;
-
-        ans = min(ans,
-                  r5 + 1 + solve(x / 5, y));
-
-        ans = min(ans,
-                  (5 - r5) + 1 + solve((x + 5 - r5) / 5, y));
-        int r11 = x % 11;
-
-        ans = min(ans,
-                  r11 + 1 + solve(x / 11, y));
-
-        ans = min(ans,
-                  (11 - r11) + 1 + solve((x + 11 - r11) / 11, y));
-
-        return memo[x] = ans;
-    }
-
     int minimumOperationsToMakeEqual(int x, int y) {
-        return solve(x, y);
+
+        queue<pair<int,int>> q;
+        unordered_set<int> vis;
+
+        q.push({x,0});
+        vis.insert(x);
+
+        while(!q.empty()) {
+            auto [cur,steps] = q.front();
+            q.pop();
+
+            if(cur == y) return steps;
+
+            vector<int> nxt;
+
+            nxt.push_back(cur - 1);
+            nxt.push_back(cur + 1);
+
+            if(cur % 5 == 0) nxt.push_back(cur / 5);
+            if(cur % 11 == 0) nxt.push_back(cur / 11);
+
+            for(int num : nxt) {
+
+                if(num < 0 || num > 10000) continue;
+
+                if(!vis.count(num)) {
+                    vis.insert(num);
+                    q.push({num, steps + 1});
+                }
+            }
+        }
+
+        return -1;
     }
 };
