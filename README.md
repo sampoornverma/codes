@@ -216,6 +216,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/sampoornverma/codes/tree/main/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/sampoornverma/codes/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
+| [2998-minimum-number-of-operations-to-make-x-and-y-equal](https://github.com/sampoornverma/codes/tree/main/2998-minimum-number-of-operations-to-make-x-and-y-equal/) | Medium |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/sampoornverma/codes/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -349,6 +350,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2463-minimum-total-distance-traveled](https://github.com/sampoornverma/codes/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2573-find-the-string-with-lcp](https://github.com/sampoornverma/codes/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/sampoornverma/codes/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
+| [2998-minimum-number-of-operations-to-make-x-and-y-equal](https://github.com/sampoornverma/codes/tree/main/2998-minimum-number-of-operations-to-make-x-and-y-equal/) | Medium |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/sampoornverma/codes/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/sampoornverma/codes/tree/main/3130-find-all-possible-stable-binary-arrays-ii/) | Hard |
 | [3225-maximum-score-from-grid-operations](https://github.com/sampoornverma/codes/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
@@ -514,6 +516,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/sampoornverma/codes/tree/main/0070-climbing-stairs/) | Easy |
 | [0509-fibonacci-number](https://github.com/sampoornverma/codes/tree/main/0509-fibonacci-number/) | Easy |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
+| [2998-minimum-number-of-operations-to-make-x-and-y-equal](https://github.com/sampoornverma/codes/tree/main/2998-minimum-number-of-operations-to-make-x-and-y-equal/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
