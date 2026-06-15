@@ -57,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/sampoornverma/codes/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0039-combination-sum](https://github.com/sampoornverma/codes/tree/main/0039-combination-sum/) | Medium |
+| [0040-combination-sum-ii](https://github.com/sampoornverma/codes/tree/main/0040-combination-sum-ii/) | Medium |
 | [0048-rotate-image](https://github.com/sampoornverma/codes/tree/main/0048-rotate-image/) | Medium |
 | [0053-maximum-subarray](https://github.com/sampoornverma/codes/tree/main/0053-maximum-subarray/) | Medium |
 | [0055-jump-game](https://github.com/sampoornverma/codes/tree/main/0055-jump-game/) | Medium |
@@ -362,6 +363,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0039-combination-sum](https://github.com/sampoornverma/codes/tree/main/0039-combination-sum/) | Medium |
+| [0040-combination-sum-ii](https://github.com/sampoornverma/codes/tree/main/0040-combination-sum-ii/) | Medium |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/sampoornverma/codes/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/sampoornverma/codes/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/sampoornverma/codes/tree/main/1980-find-unique-binary-string/) | Medium |
