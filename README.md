@@ -81,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/sampoornverma/codes/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0486-predict-the-winner](https://github.com/sampoornverma/codes/tree/main/0486-predict-the-winner/) | Medium |
 | [0518-coin-change-ii](https://github.com/sampoornverma/codes/tree/main/0518-coin-change-ii/) | Medium |
+| [0713-subarray-product-less-than-k](https://github.com/sampoornverma/codes/tree/main/0713-subarray-product-less-than-k/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/sampoornverma/codes/tree/main/0874-walking-robot-simulation/) | Medium |
 | [0877-stone-game](https://github.com/sampoornverma/codes/tree/main/0877-stone-game/) | Medium |
 | [0983-minimum-cost-for-tickets](https://github.com/sampoornverma/codes/tree/main/0983-minimum-cost-for-tickets/) | Medium |
@@ -353,6 +354,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0413-arithmetic-slices](https://github.com/sampoornverma/codes/tree/main/0413-arithmetic-slices/) | Medium |
+| [0713-subarray-product-less-than-k](https://github.com/sampoornverma/codes/tree/main/0713-subarray-product-less-than-k/) | Medium |
 | [1871-jump-game-vii](https://github.com/sampoornverma/codes/tree/main/1871-jump-game-vii/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/sampoornverma/codes/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 ## Backtracking
@@ -365,6 +367,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/sampoornverma/codes/tree/main/0238-product-of-array-except-self/) | Medium |
+| [0713-subarray-product-less-than-k](https://github.com/sampoornverma/codes/tree/main/0713-subarray-product-less-than-k/) | Medium |
 | [1140-stone-game-ii](https://github.com/sampoornverma/codes/tree/main/1140-stone-game-ii/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/sampoornverma/codes/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1871-jump-game-vii](https://github.com/sampoornverma/codes/tree/main/1871-jump-game-vii/) | Medium |
@@ -394,6 +397,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sampoornverma/codes/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/sampoornverma/codes/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0300-longest-increasing-subsequence](https://github.com/sampoornverma/codes/tree/main/0300-longest-increasing-subsequence/) | Medium |
+| [0713-subarray-product-less-than-k](https://github.com/sampoornverma/codes/tree/main/0713-subarray-product-less-than-k/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/sampoornverma/codes/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/sampoornverma/codes/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1964-find-the-longest-valid-obstacle-course-at-each-position](https://github.com/sampoornverma/codes/tree/main/1964-find-the-longest-valid-obstacle-course-at-each-position/) | Hard |
