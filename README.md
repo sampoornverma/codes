@@ -144,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/sampoornverma/codes/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 | [2784-check-if-array-is-good](https://github.com/sampoornverma/codes/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2906-construct-product-matrix](https://github.com/sampoornverma/codes/tree/main/2906-construct-product-matrix/) | Medium |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/sampoornverma/codes/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/sampoornverma/codes/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/sampoornverma/codes/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3093-longest-common-suffix-queries](https://github.com/sampoornverma/codes/tree/main/3093-longest-common-suffix-queries/) | Hard |
@@ -290,6 +291,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/sampoornverma/codes/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [2784-check-if-array-is-good](https://github.com/sampoornverma/codes/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/sampoornverma/codes/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/sampoornverma/codes/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [3120-count-the-number-of-special-characters-i](https://github.com/sampoornverma/codes/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3488-closest-equal-element-queries](https://github.com/sampoornverma/codes/tree/main/3488-closest-equal-element-queries/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/sampoornverma/codes/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
@@ -518,6 +520,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1622-fancy-sequence](https://github.com/sampoornverma/codes/tree/main/1622-fancy-sequence/) | Hard |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/sampoornverma/codes/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [3161-block-placement-queries](https://github.com/sampoornverma/codes/tree/main/3161-block-placement-queries/) | Hard |
 | [3691-maximum-total-subarray-value-ii](https://github.com/sampoornverma/codes/tree/main/3691-maximum-total-subarray-value-ii/) | Hard |
 ## Memoization
