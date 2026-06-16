@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0204-count-primes](https://github.com/sampoornverma/codes/tree/main/0204-count-primes/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/sampoornverma/codes/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/sampoornverma/codes/tree/main/0300-longest-increasing-subsequence/) | Medium |
+| [0303-range-sum-query-immutable](https://github.com/sampoornverma/codes/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0377-combination-sum-iv](https://github.com/sampoornverma/codes/tree/main/0377-combination-sum-iv/) | Medium |
 | [0396-rotate-function](https://github.com/sampoornverma/codes/tree/main/0396-rotate-function/) | Medium |
 | [0413-arithmetic-slices](https://github.com/sampoornverma/codes/tree/main/0413-arithmetic-slices/) | Medium |
@@ -393,6 +394,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/sampoornverma/codes/tree/main/0238-product-of-array-except-self/) | Medium |
+| [0303-range-sum-query-immutable](https://github.com/sampoornverma/codes/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0713-subarray-product-less-than-k](https://github.com/sampoornverma/codes/tree/main/0713-subarray-product-less-than-k/) | Medium |
 | [1140-stone-game-ii](https://github.com/sampoornverma/codes/tree/main/1140-stone-game-ii/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/sampoornverma/codes/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
@@ -515,6 +517,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0303-range-sum-query-immutable](https://github.com/sampoornverma/codes/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [1622-fancy-sequence](https://github.com/sampoornverma/codes/tree/main/1622-fancy-sequence/) | Hard |
 ## Segment Tree
 | Problem Name | Difficulty |
