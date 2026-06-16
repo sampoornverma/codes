@@ -58,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/sampoornverma/codes/tree/main/0015-3sum/) | Medium |
 | [0033-search-in-rotated-sorted-array](https://github.com/sampoornverma/codes/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0039-combination-sum](https://github.com/sampoornverma/codes/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/sampoornverma/codes/tree/main/0040-combination-sum-ii/) | Medium |
@@ -233,6 +234,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/sampoornverma/codes/tree/main/0015-3sum/) | Medium |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/sampoornverma/codes/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0075-sort-colors](https://github.com/sampoornverma/codes/tree/main/0075-sort-colors/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/sampoornverma/codes/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
@@ -248,6 +250,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/sampoornverma/codes/tree/main/0015-3sum/) | Medium |
 | [0075-sort-colors](https://github.com/sampoornverma/codes/tree/main/0075-sort-colors/) | Medium |
 | [0169-majority-element](https://github.com/sampoornverma/codes/tree/main/0169-majority-element/) | Easy |
 | [0435-non-overlapping-intervals](https://github.com/sampoornverma/codes/tree/main/0435-non-overlapping-intervals/) | Medium |
