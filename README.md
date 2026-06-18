@@ -496,6 +496,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0788-rotated-digits](https://github.com/sampoornverma/codes/tree/main/0788-rotated-digits/) | Medium |
 | [0877-stone-game](https://github.com/sampoornverma/codes/tree/main/0877-stone-game/) | Medium |
 | [1140-stone-game-ii](https://github.com/sampoornverma/codes/tree/main/1140-stone-game-ii/) | Medium |
+| [1344-angle-between-hands-of-a-clock](https://github.com/sampoornverma/codes/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
 | [1406-stone-game-iii](https://github.com/sampoornverma/codes/tree/main/1406-stone-game-iii/) | Hard |
 | [1622-fancy-sequence](https://github.com/sampoornverma/codes/tree/main/1622-fancy-sequence/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
