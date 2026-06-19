@@ -110,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1402-reducing-dishes](https://github.com/sampoornverma/codes/tree/main/1402-reducing-dishes/) | Hard |
 | [1406-stone-game-iii](https://github.com/sampoornverma/codes/tree/main/1406-stone-game-iii/) | Hard |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sampoornverma/codes/tree/main/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/sampoornverma/codes/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1559-detect-cycles-in-2d-grid](https://github.com/sampoornverma/codes/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/sampoornverma/codes/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
@@ -356,6 +357,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1402-reducing-dishes](https://github.com/sampoornverma/codes/tree/main/1402-reducing-dishes/) | Hard |
 | [1406-stone-game-iii](https://github.com/sampoornverma/codes/tree/main/1406-stone-game-iii/) | Hard |
 | [1416-restore-the-array](https://github.com/sampoornverma/codes/tree/main/1416-restore-the-array/) | Hard |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sampoornverma/codes/tree/main/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/sampoornverma/codes/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/sampoornverma/codes/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1639-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/sampoornverma/codes/tree/main/1639-number-of-ways-to-form-a-target-string-given-a-dictionary/) | Hard |
@@ -383,6 +385,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0413-arithmetic-slices](https://github.com/sampoornverma/codes/tree/main/0413-arithmetic-slices/) | Medium |
 | [0713-subarray-product-less-than-k](https://github.com/sampoornverma/codes/tree/main/0713-subarray-product-less-than-k/) | Medium |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sampoornverma/codes/tree/main/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [1871-jump-game-vii](https://github.com/sampoornverma/codes/tree/main/1871-jump-game-vii/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/sampoornverma/codes/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 ## Backtracking
