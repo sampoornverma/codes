@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/sampoornverma/codes/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/sampoornverma/codes/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/sampoornverma/codes/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
+| [2287-rearrange-characters-to-make-target-string](https://github.com/sampoornverma/codes/tree/main/2287-rearrange-characters-to-make-target-string/) | Easy |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/sampoornverma/codes/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/sampoornverma/codes/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2833-furthest-point-from-origin](https://github.com/sampoornverma/codes/tree/main/2833-furthest-point-from-origin/) | Easy |
@@ -304,6 +305,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/sampoornverma/codes/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/sampoornverma/codes/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/sampoornverma/codes/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
+| [2287-rearrange-characters-to-make-target-string](https://github.com/sampoornverma/codes/tree/main/2287-rearrange-characters-to-make-target-string/) | Easy |
 | [2540-minimum-common-value](https://github.com/sampoornverma/codes/tree/main/2540-minimum-common-value/) | Easy |
 | [2615-sum-of-distances](https://github.com/sampoornverma/codes/tree/main/2615-sum-of-distances/) | Medium |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/sampoornverma/codes/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
@@ -327,6 +329,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0169-majority-element](https://github.com/sampoornverma/codes/tree/main/0169-majority-element/) | Easy |
 | [1189-maximum-number-of-balloons](https://github.com/sampoornverma/codes/tree/main/1189-maximum-number-of-balloons/) | Easy |
+| [2287-rearrange-characters-to-make-target-string](https://github.com/sampoornverma/codes/tree/main/2287-rearrange-characters-to-make-target-string/) | Easy |
 | [2833-furthest-point-from-origin](https://github.com/sampoornverma/codes/tree/main/2833-furthest-point-from-origin/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
