@@ -219,6 +219,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0079-word-search](https://github.com/sampoornverma/codes/tree/main/0079-word-search/) | Medium |
 | [0110-balanced-binary-tree](https://github.com/sampoornverma/codes/tree/main/0110-balanced-binary-tree/) | Easy |
+| [0113-path-sum-ii](https://github.com/sampoornverma/codes/tree/main/0113-path-sum-ii/) | Medium |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/sampoornverma/codes/tree/main/0559-maximum-depth-of-n-ary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/sampoornverma/codes/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [1254-number-of-closed-islands](https://github.com/sampoornverma/codes/tree/main/1254-number-of-closed-islands/) | Medium |
@@ -422,6 +423,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0078-subsets](https://github.com/sampoornverma/codes/tree/main/0078-subsets/) | Medium |
 | [0079-word-search](https://github.com/sampoornverma/codes/tree/main/0079-word-search/) | Medium |
 | [0090-subsets-ii](https://github.com/sampoornverma/codes/tree/main/0090-subsets-ii/) | Medium |
+| [0113-path-sum-ii](https://github.com/sampoornverma/codes/tree/main/0113-path-sum-ii/) | Medium |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/sampoornverma/codes/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/sampoornverma/codes/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/sampoornverma/codes/tree/main/1980-find-unique-binary-string/) | Medium |
@@ -578,6 +580,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0110-balanced-binary-tree](https://github.com/sampoornverma/codes/tree/main/0110-balanced-binary-tree/) | Easy |
+| [0113-path-sum-ii](https://github.com/sampoornverma/codes/tree/main/0113-path-sum-ii/) | Medium |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/sampoornverma/codes/tree/main/0559-maximum-depth-of-n-ary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/sampoornverma/codes/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [2196-create-binary-tree-from-descriptions](https://github.com/sampoornverma/codes/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
@@ -586,6 +589,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0110-balanced-binary-tree](https://github.com/sampoornverma/codes/tree/main/0110-balanced-binary-tree/) | Easy |
+| [0113-path-sum-ii](https://github.com/sampoornverma/codes/tree/main/0113-path-sum-ii/) | Medium |
 | [0572-subtree-of-another-tree](https://github.com/sampoornverma/codes/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [2196-create-binary-tree-from-descriptions](https://github.com/sampoornverma/codes/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 ## Enumeration
