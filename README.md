@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0657-robot-return-to-origin](https://github.com/sampoornverma/codes/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0874-walking-robot-simulation](https://github.com/sampoornverma/codes/tree/main/0874-walking-robot-simulation/) | Medium |
+| [0950-reveal-cards-in-increasing-order](https://github.com/sampoornverma/codes/tree/main/0950-reveal-cards-in-increasing-order/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/sampoornverma/codes/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1914-cyclically-rotating-a-grid](https://github.com/sampoornverma/codes/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/sampoornverma/codes/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
@@ -101,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0873-length-of-longest-fibonacci-subsequence](https://github.com/sampoornverma/codes/tree/main/0873-length-of-longest-fibonacci-subsequence/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/sampoornverma/codes/tree/main/0874-walking-robot-simulation/) | Medium |
 | [0877-stone-game](https://github.com/sampoornverma/codes/tree/main/0877-stone-game/) | Medium |
+| [0950-reveal-cards-in-increasing-order](https://github.com/sampoornverma/codes/tree/main/0950-reveal-cards-in-increasing-order/) | Medium |
 | [0983-minimum-cost-for-tickets](https://github.com/sampoornverma/codes/tree/main/0983-minimum-cost-for-tickets/) | Medium |
 | [1035-uncrossed-lines](https://github.com/sampoornverma/codes/tree/main/1035-uncrossed-lines/) | Medium |
 | [1140-stone-game-ii](https://github.com/sampoornverma/codes/tree/main/1140-stone-game-ii/) | Medium |
@@ -269,6 +271,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/sampoornverma/codes/tree/main/0075-sort-colors/) | Medium |
 | [0169-majority-element](https://github.com/sampoornverma/codes/tree/main/0169-majority-element/) | Easy |
 | [0435-non-overlapping-intervals](https://github.com/sampoornverma/codes/tree/main/0435-non-overlapping-intervals/) | Medium |
+| [0950-reveal-cards-in-increasing-order](https://github.com/sampoornverma/codes/tree/main/0950-reveal-cards-in-increasing-order/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/sampoornverma/codes/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1340-jump-game-v](https://github.com/sampoornverma/codes/tree/main/1340-jump-game-v/) | Hard |
 | [1402-reducing-dishes](https://github.com/sampoornverma/codes/tree/main/1402-reducing-dishes/) | Hard |
@@ -645,4 +648,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1833-maximum-ice-cream-bars](https://github.com/sampoornverma/codes/tree/main/1833-maximum-ice-cream-bars/) | Medium |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0950-reveal-cards-in-increasing-order](https://github.com/sampoornverma/codes/tree/main/0950-reveal-cards-in-increasing-order/) | Medium |
 <!---LeetCode Topics End-->
