@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1869-longer-contiguous-segments-of-ones-than-zeros](https://github.com/sampoornverma/codes/tree/main/1869-longer-contiguous-segments-of-ones-than-zeros/) | Easy |
 | [1871-jump-game-vii](https://github.com/sampoornverma/codes/tree/main/1871-jump-game-vii/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/sampoornverma/codes/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/sampoornverma/codes/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/sampoornverma/codes/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/sampoornverma/codes/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
 | [2287-rearrange-characters-to-make-target-string](https://github.com/sampoornverma/codes/tree/main/2287-rearrange-characters-to-make-target-string/) | Easy |
@@ -140,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/sampoornverma/codes/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1914-cyclically-rotating-a-grid](https://github.com/sampoornverma/codes/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [1964-find-the-longest-valid-obstacle-course-at-each-position](https://github.com/sampoornverma/codes/tree/main/1964-find-the-longest-valid-obstacle-course-at-each-position/) | Hard |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/sampoornverma/codes/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/sampoornverma/codes/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/sampoornverma/codes/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sampoornverma/codes/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
