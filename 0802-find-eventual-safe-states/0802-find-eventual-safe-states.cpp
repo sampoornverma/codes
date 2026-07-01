@@ -1,44 +1,41 @@
 class Solution {
 public:
-    bool dfsCheck(int node, vector<vector<int>>& adj, vector<int>& vis, vector<int>& pathVis, vector<int>& check) {
-        vis[node] = 1;
-        pathVis[node] = 1;
-        check[node] = 0;
-
-        for (auto it : adj[node]) {
-            if (!vis[it]) {
-                if (dfsCheck(it, adj, vis, pathVis, check)) {
-                    check[node] = 0;
-                    return true;
-                }
-            } else if (pathVis[it]) {
-                check[node] = 0;
-                return true;
-            }
-        }
-
-        check[node] = 1;
-        pathVis[node] = 0;
-        return false;
-    }
-
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
-        int V = graph.size();
-        vector<int> vis(V, 0);
-        vector<int> pathVis(V, 0);
-        vector<int> check(V, 0);
-        vector<int> safeNodes;
 
+        int V = graph.size();
+
+        vector<vector<int>> revAdj(V);
+        vector<int> outdegree(V, 0);
+
+        // Reverse graph and calculate outdegree
         for (int i = 0; i < V; i++) {
-            if (!vis[i]) {
-                dfsCheck(i, graph, vis, pathVis, check);
+            outdegree[i] = graph[i].size();
+
+            for (auto it : graph[i]) {
+                revAdj[it].push_back(i);
             }
         }
 
-        for (int i = 0; i < V; i++) {
-            if (check[i] == 1) safeNodes.push_back(i);
-        }
+        queue<int> q;
 
-        return safeNodes;
+        // Terminal nodes
+        for (int i = 0; i < V; i++) {
+            if (outdegree[i] == 0)
+                q.push(i);
+        }
+        vector<int> safe;
+        while (!q.empty()) {
+            int node = q.front();
+            q.pop();
+            safe.push_back(node);
+            for (auto prev : revAdj[node]) {
+                outdegree[prev]--;
+                if (outdegree[prev] == 0)
+                    q.push(prev);
+            }
+        }
+        sort(safe.begin(), safe.end());
+
+        return safe;
     }
 };
