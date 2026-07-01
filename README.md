@@ -238,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/sampoornverma/codes/tree/main/0559-maximum-depth-of-n-ary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/sampoornverma/codes/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0785-is-graph-bipartite](https://github.com/sampoornverma/codes/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0802-find-eventual-safe-states](https://github.com/sampoornverma/codes/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/sampoornverma/codes/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1306-jump-game-iii](https://github.com/sampoornverma/codes/tree/main/1306-jump-game-iii/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
@@ -254,6 +255,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0279-perfect-squares](https://github.com/sampoornverma/codes/tree/main/0279-perfect-squares/) | Medium |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/sampoornverma/codes/tree/main/0559-maximum-depth-of-n-ary-tree/) | Easy |
 | [0785-is-graph-bipartite](https://github.com/sampoornverma/codes/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0802-find-eventual-safe-states](https://github.com/sampoornverma/codes/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/sampoornverma/codes/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1306-jump-game-iii](https://github.com/sampoornverma/codes/tree/main/1306-jump-game-iii/) | Medium |
 | [1345-jump-game-iv](https://github.com/sampoornverma/codes/tree/main/1345-jump-game-iv/) | Hard |
@@ -270,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/sampoornverma/codes/tree/main/0133-clone-graph/) | Medium |
 | [0207-course-schedule](https://github.com/sampoornverma/codes/tree/main/0207-course-schedule/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/sampoornverma/codes/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0802-find-eventual-safe-states](https://github.com/sampoornverma/codes/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/sampoornverma/codes/tree/main/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/sampoornverma/codes/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
@@ -684,6 +687,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/sampoornverma/codes/tree/main/0207-course-schedule/) | Medium |
+| [0802-find-eventual-safe-states](https://github.com/sampoornverma/codes/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 ## Geometry
 | Problem Name | Difficulty |
