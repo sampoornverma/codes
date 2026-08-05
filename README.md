@@ -246,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1559-detect-cycles-in-2d-grid](https://github.com/sampoornverma/codes/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/sampoornverma/codes/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
+| [3310-remove-methods-from-project](https://github.com/sampoornverma/codes/tree/main/3310-remove-methods-from-project/) | Medium |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/sampoornverma/codes/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -265,6 +266,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [2998-minimum-number-of-operations-to-make-x-and-y-equal](https://github.com/sampoornverma/codes/tree/main/2998-minimum-number-of-operations-to-make-x-and-y-equal/) | Medium |
+| [3310-remove-methods-from-project](https://github.com/sampoornverma/codes/tree/main/3310-remove-methods-from-project/) | Medium |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/sampoornverma/codes/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -275,6 +277,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0802-find-eventual-safe-states](https://github.com/sampoornverma/codes/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/sampoornverma/codes/tree/main/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
+| [3310-remove-methods-from-project](https://github.com/sampoornverma/codes/tree/main/3310-remove-methods-from-project/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/sampoornverma/codes/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Two Pointers
 | Problem Name | Difficulty |
