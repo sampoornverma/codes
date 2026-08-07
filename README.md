@@ -593,6 +593,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/sampoornverma/codes/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/sampoornverma/codes/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/sampoornverma/codes/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
+| [3345-smallest-divisible-digit-product-i](https://github.com/sampoornverma/codes/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/sampoornverma/codes/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/sampoornverma/codes/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/sampoornverma/codes/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
@@ -653,6 +654,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0204-count-primes](https://github.com/sampoornverma/codes/tree/main/0204-count-primes/) | Medium |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/sampoornverma/codes/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
+| [3345-smallest-divisible-digit-product-i](https://github.com/sampoornverma/codes/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 | [3546-equal-sum-grid-partition-i](https://github.com/sampoornverma/codes/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/sampoornverma/codes/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 ## Ordered Set
