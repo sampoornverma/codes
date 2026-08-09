@@ -94,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/sampoornverma/codes/tree/main/0169-majority-element/) | Easy |
 | [0198-house-robber](https://github.com/sampoornverma/codes/tree/main/0198-house-robber/) | Medium |
 | [0204-count-primes](https://github.com/sampoornverma/codes/tree/main/0204-count-primes/) | Medium |
+| [0221-maximal-square](https://github.com/sampoornverma/codes/tree/main/0221-maximal-square/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/sampoornverma/codes/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/sampoornverma/codes/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/sampoornverma/codes/tree/main/0303-range-sum-query-immutable/) | Easy |
@@ -207,6 +208,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/sampoornverma/codes/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/sampoornverma/codes/tree/main/0064-minimum-path-sum/) | Medium |
 | [0079-word-search](https://github.com/sampoornverma/codes/tree/main/0079-word-search/) | Medium |
+| [0221-maximal-square](https://github.com/sampoornverma/codes/tree/main/0221-maximal-square/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/sampoornverma/codes/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/sampoornverma/codes/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -401,6 +403,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0131-palindrome-partitioning](https://github.com/sampoornverma/codes/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0152-maximum-product-subarray](https://github.com/sampoornverma/codes/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/sampoornverma/codes/tree/main/0198-house-robber/) | Medium |
+| [0221-maximal-square](https://github.com/sampoornverma/codes/tree/main/0221-maximal-square/) | Medium |
 | [0264-ugly-number-ii](https://github.com/sampoornverma/codes/tree/main/0264-ugly-number-ii/) | Medium |
 | [0279-perfect-squares](https://github.com/sampoornverma/codes/tree/main/0279-perfect-squares/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/sampoornverma/codes/tree/main/0300-longest-increasing-subsequence/) | Medium |
