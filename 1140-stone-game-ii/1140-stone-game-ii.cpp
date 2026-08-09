@@ -28,9 +28,8 @@ public:
         }
         
         return dp[person][i][M] = result;
-        
+
     }
-    
     int stoneGameII(vector<int>& piles) {
         n = piles.size();
         
