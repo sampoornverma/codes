@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0087-scramble-string](https://github.com/sampoornverma/codes/tree/main/0087-scramble-string/) | Hard |
 | [0115-distinct-subsequences](https://github.com/sampoornverma/codes/tree/main/0115-distinct-subsequences/) | Hard |
 | [0131-palindrome-partitioning](https://github.com/sampoornverma/codes/tree/main/0131-palindrome-partitioning/) | Medium |
+| [0132-palindrome-partitioning-ii](https://github.com/sampoornverma/codes/tree/main/0132-palindrome-partitioning-ii/) | Hard |
 | [0657-robot-return-to-origin](https://github.com/sampoornverma/codes/tree/main/0657-robot-return-to-origin/) | Easy |
 | [1143-longest-common-subsequence](https://github.com/sampoornverma/codes/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1189-maximum-number-of-balloons](https://github.com/sampoornverma/codes/tree/main/1189-maximum-number-of-balloons/) | Easy |
@@ -404,6 +405,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sampoornverma/codes/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/sampoornverma/codes/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
 | [0131-palindrome-partitioning](https://github.com/sampoornverma/codes/tree/main/0131-palindrome-partitioning/) | Medium |
+| [0132-palindrome-partitioning-ii](https://github.com/sampoornverma/codes/tree/main/0132-palindrome-partitioning-ii/) | Hard |
 | [0152-maximum-product-subarray](https://github.com/sampoornverma/codes/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/sampoornverma/codes/tree/main/0198-house-robber/) | Medium |
 | [0221-maximal-square](https://github.com/sampoornverma/codes/tree/main/0221-maximal-square/) | Medium |
