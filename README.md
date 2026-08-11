@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/sampoornverma/codes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0044-wildcard-matching](https://github.com/sampoornverma/codes/tree/main/0044-wildcard-matching/) | Hard |
 | [0058-length-of-last-word](https://github.com/sampoornverma/codes/tree/main/0058-length-of-last-word/) | Easy |
 | [0079-word-search](https://github.com/sampoornverma/codes/tree/main/0079-word-search/) | Medium |
@@ -343,6 +344,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/sampoornverma/codes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0133-clone-graph](https://github.com/sampoornverma/codes/tree/main/0133-clone-graph/) | Medium |
 | [0141-linked-list-cycle](https://github.com/sampoornverma/codes/tree/main/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/sampoornverma/codes/tree/main/0142-linked-list-cycle-ii/) | Medium |
@@ -470,6 +472,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/sampoornverma/codes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0413-arithmetic-slices](https://github.com/sampoornverma/codes/tree/main/0413-arithmetic-slices/) | Medium |
 | [0713-subarray-product-less-than-k](https://github.com/sampoornverma/codes/tree/main/0713-subarray-product-less-than-k/) | Medium |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sampoornverma/codes/tree/main/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
