@@ -99,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/sampoornverma/codes/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/sampoornverma/codes/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/sampoornverma/codes/tree/main/0303-range-sum-query-immutable/) | Easy |
+| [0312-burst-balloons](https://github.com/sampoornverma/codes/tree/main/0312-burst-balloons/) | Hard |
 | [0377-combination-sum-iv](https://github.com/sampoornverma/codes/tree/main/0377-combination-sum-iv/) | Medium |
 | [0396-rotate-function](https://github.com/sampoornverma/codes/tree/main/0396-rotate-function/) | Medium |
 | [0413-arithmetic-slices](https://github.com/sampoornverma/codes/tree/main/0413-arithmetic-slices/) | Medium |
@@ -412,6 +413,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0264-ugly-number-ii](https://github.com/sampoornverma/codes/tree/main/0264-ugly-number-ii/) | Medium |
 | [0279-perfect-squares](https://github.com/sampoornverma/codes/tree/main/0279-perfect-squares/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/sampoornverma/codes/tree/main/0300-longest-increasing-subsequence/) | Medium |
+| [0312-burst-balloons](https://github.com/sampoornverma/codes/tree/main/0312-burst-balloons/) | Hard |
 | [0337-house-robber-iii](https://github.com/sampoornverma/codes/tree/main/0337-house-robber-iii/) | Medium |
 | [0377-combination-sum-iv](https://github.com/sampoornverma/codes/tree/main/0377-combination-sum-iv/) | Medium |
 | [0396-rotate-function](https://github.com/sampoornverma/codes/tree/main/0396-rotate-function/) | Medium |
