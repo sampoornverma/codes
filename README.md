@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sampoornverma/codes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0012-integer-to-roman](https://github.com/sampoornverma/codes/tree/main/0012-integer-to-roman/) | Medium |
 | [0044-wildcard-matching](https://github.com/sampoornverma/codes/tree/main/0044-wildcard-matching/) | Hard |
 | [0058-length-of-last-word](https://github.com/sampoornverma/codes/tree/main/0058-length-of-last-word/) | Easy |
 | [0079-word-search](https://github.com/sampoornverma/codes/tree/main/0079-word-search/) | Medium |
@@ -349,6 +350,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sampoornverma/codes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0012-integer-to-roman](https://github.com/sampoornverma/codes/tree/main/0012-integer-to-roman/) | Medium |
 | [0133-clone-graph](https://github.com/sampoornverma/codes/tree/main/0133-clone-graph/) | Medium |
 | [0141-linked-list-cycle](https://github.com/sampoornverma/codes/tree/main/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/sampoornverma/codes/tree/main/0142-linked-list-cycle-ii/) | Medium |
@@ -608,6 +610,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0009-palindrome-number](https://github.com/sampoornverma/codes/tree/main/0009-palindrome-number/) | Easy |
+| [0012-integer-to-roman](https://github.com/sampoornverma/codes/tree/main/0012-integer-to-roman/) | Medium |
 | [0048-rotate-image](https://github.com/sampoornverma/codes/tree/main/0048-rotate-image/) | Medium |
 | [0070-climbing-stairs](https://github.com/sampoornverma/codes/tree/main/0070-climbing-stairs/) | Easy |
 | [0202-happy-number](https://github.com/sampoornverma/codes/tree/main/0202-happy-number/) | Easy |
