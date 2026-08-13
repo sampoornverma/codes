@@ -86,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/sampoornverma/codes/tree/main/0075-sort-colors/) | Medium |
 | [0078-subsets](https://github.com/sampoornverma/codes/tree/main/0078-subsets/) | Medium |
 | [0079-word-search](https://github.com/sampoornverma/codes/tree/main/0079-word-search/) | Medium |
+| [0084-largest-rectangle-in-histogram](https://github.com/sampoornverma/codes/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0090-subsets-ii](https://github.com/sampoornverma/codes/tree/main/0090-subsets-ii/) | Medium |
 | [0118-pascals-triangle](https://github.com/sampoornverma/codes/tree/main/0118-pascals-triangle/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sampoornverma/codes/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
@@ -719,6 +720,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/sampoornverma/codes/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0225-implement-stack-using-queues](https://github.com/sampoornverma/codes/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/sampoornverma/codes/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [2751-robot-collisions](https://github.com/sampoornverma/codes/tree/main/2751-robot-collisions/) | Hard |
@@ -818,4 +820,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0202-happy-number](https://github.com/sampoornverma/codes/tree/main/0202-happy-number/) | Easy |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/sampoornverma/codes/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+## Range Minimum/Maximum Query
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/sampoornverma/codes/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 <!---LeetCode Topics End-->
