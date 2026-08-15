@@ -835,4 +835,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/sampoornverma/codes/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0177-nth-highest-salary](https://github.com/sampoornverma/codes/tree/main/0177-nth-highest-salary/) | Medium |
 <!---LeetCode Topics End-->
