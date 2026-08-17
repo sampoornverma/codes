@@ -846,6 +846,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0176-second-highest-salary](https://github.com/sampoornverma/codes/tree/main/0176-second-highest-salary/) | Medium |
 | [0177-nth-highest-salary](https://github.com/sampoornverma/codes/tree/main/0177-nth-highest-salary/) | Medium |
 | [1211-queries-quality-and-percentage](https://github.com/sampoornverma/codes/tree/main/1211-queries-quality-and-percentage/) | Easy |
 <!---LeetCode Topics End-->
