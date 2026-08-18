@@ -856,4 +856,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1179-reformat-department-table](https://github.com/sampoornverma/codes/tree/main/1179-reformat-department-table/) | Easy |
 | [1204-last-person-to-fit-in-the-bus](https://github.com/sampoornverma/codes/tree/main/1204-last-person-to-fit-in-the-bus/) | Medium |
 | [1211-queries-quality-and-percentage](https://github.com/sampoornverma/codes/tree/main/1211-queries-quality-and-percentage/) | Easy |
+| [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/sampoornverma/codes/tree/main/1731-the-number-of-employees-which-report-to-each-employee/) | Easy |
 <!---LeetCode Topics End-->
