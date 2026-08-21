@@ -253,6 +253,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/sampoornverma/codes/tree/main/0079-word-search/) | Medium |
 | [0110-balanced-binary-tree](https://github.com/sampoornverma/codes/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0113-path-sum-ii](https://github.com/sampoornverma/codes/tree/main/0113-path-sum-ii/) | Medium |
+| [0124-binary-tree-maximum-path-sum](https://github.com/sampoornverma/codes/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0133-clone-graph](https://github.com/sampoornverma/codes/tree/main/0133-clone-graph/) | Medium |
 | [0207-course-schedule](https://github.com/sampoornverma/codes/tree/main/0207-course-schedule/) | Medium |
 | [0337-house-robber-iii](https://github.com/sampoornverma/codes/tree/main/0337-house-robber-iii/) | Medium |
@@ -426,6 +427,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0118-pascals-triangle](https://github.com/sampoornverma/codes/tree/main/0118-pascals-triangle/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sampoornverma/codes/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/sampoornverma/codes/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
+| [0124-binary-tree-maximum-path-sum](https://github.com/sampoornverma/codes/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0131-palindrome-partitioning](https://github.com/sampoornverma/codes/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0132-palindrome-partitioning-ii](https://github.com/sampoornverma/codes/tree/main/0132-palindrome-partitioning-ii/) | Hard |
 | [0152-maximum-product-subarray](https://github.com/sampoornverma/codes/tree/main/0152-maximum-product-subarray/) | Medium |
@@ -696,6 +698,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0110-balanced-binary-tree](https://github.com/sampoornverma/codes/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0113-path-sum-ii](https://github.com/sampoornverma/codes/tree/main/0113-path-sum-ii/) | Medium |
+| [0124-binary-tree-maximum-path-sum](https://github.com/sampoornverma/codes/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0337-house-robber-iii](https://github.com/sampoornverma/codes/tree/main/0337-house-robber-iii/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/sampoornverma/codes/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/sampoornverma/codes/tree/main/0559-maximum-depth-of-n-ary-tree/) | Easy |
@@ -707,6 +710,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0110-balanced-binary-tree](https://github.com/sampoornverma/codes/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0113-path-sum-ii](https://github.com/sampoornverma/codes/tree/main/0113-path-sum-ii/) | Medium |
+| [0124-binary-tree-maximum-path-sum](https://github.com/sampoornverma/codes/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0337-house-robber-iii](https://github.com/sampoornverma/codes/tree/main/0337-house-robber-iii/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/sampoornverma/codes/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0572-subtree-of-another-tree](https://github.com/sampoornverma/codes/tree/main/0572-subtree-of-another-tree/) | Easy |
@@ -809,6 +813,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## DP on Trees
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/sampoornverma/codes/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0337-house-robber-iii](https://github.com/sampoornverma/codes/tree/main/0337-house-robber-iii/) | Medium |
 ## Minimax
 | Problem Name | Difficulty |
