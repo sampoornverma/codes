@@ -1,34 +1,36 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
 public:
     int widthOfBinaryTree(TreeNode* root) {
-        if (root == nullptr) return 0;
-
-        long long maxi = 1;
-        queue<pair<TreeNode*, long long>> q;
-        q.push({root, 1});
-
-        while (!q.empty()) {
-            int x = q.size();
-
-            // the first and last position at this level
-            long long first = q.front().second;
-            long long last = q.back().second;
-
-            // update max width with this level's width
-            maxi = max(maxi, last - first + 1);
-
-            // process children
-            while (x--) {
+        if(!root)return 0;
+        queue<pair<TreeNode*,int>> q;
+        int maxi=1;
+        q.push({root,1});
+        while(!q.empty()){
+            int first=q.front().second;
+            int end=q.back().second;
+            maxi=max(maxi,end-first+1);
+            int sz=q.size();
+            while(sz--){
                 auto [node, pos] = q.front();
                 q.pop();
+                long long normalized = pos - first;
+                if(node->left)q.push({node->left,normalized*2});
+                if(node->right)q.push({node->right,normalized*2+1});
 
-                if (node->left)
-                    q.push({node->left, pos * 2});
-                if (node->right)
-                    q.push({node->right, pos * 2 + 1});
             }
-        }
-
-        return (int)maxi;
+            }
+            return maxi;
+        
     }
 };
