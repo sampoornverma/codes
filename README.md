@@ -882,6 +882,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0185-department-top-three-salaries](https://github.com/sampoornverma/codes/tree/main/0185-department-top-three-salaries/) | Hard |
 | [0196-delete-duplicate-emails](https://github.com/sampoornverma/codes/tree/main/0196-delete-duplicate-emails/) | Easy |
 | [0595-big-countries](https://github.com/sampoornverma/codes/tree/main/0595-big-countries/) | Easy |
+| [1068-product-sales-analysis-i](https://github.com/sampoornverma/codes/tree/main/1068-product-sales-analysis-i/) | Easy |
 | [1179-reformat-department-table](https://github.com/sampoornverma/codes/tree/main/1179-reformat-department-table/) | Easy |
 | [1204-last-person-to-fit-in-the-bus](https://github.com/sampoornverma/codes/tree/main/1204-last-person-to-fit-in-the-bus/) | Medium |
 | [1211-queries-quality-and-percentage](https://github.com/sampoornverma/codes/tree/main/1211-queries-quality-and-percentage/) | Easy |
