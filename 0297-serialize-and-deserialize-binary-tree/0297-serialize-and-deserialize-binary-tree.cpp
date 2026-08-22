@@ -1,65 +1,61 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
 class Codec {
 public:
-    // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
-        if (!root) return "";
-
-        string result;
+        string s="";
         queue<TreeNode*> q;
         q.push(root);
-
-        while (!q.empty()) {
-            TreeNode* curr = q.front();
+        while(!q.empty()){
+            TreeNode* curr=q.front();
             q.pop();
-
-            if (curr) {
-                result += to_string(curr->val) + ",";
+            if(curr==nullptr)s.append("#,");
+            else s.append(to_string(curr->val)+",");
+            if(curr!=nullptr){
                 q.push(curr->left);
                 q.push(curr->right);
-            } else {
-                result += "#,";
             }
         }
-        return result;
+        return s;
     }
 
-    // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
-        if (data.empty()) return nullptr;
-
-        stringstream s(data);
-        string str;
-        getline(s, str, ',');
-        TreeNode* root = new TreeNode(stoi(str));
+        if(data=="#,"|| data.empty()){
+            return nullptr;
+        }
+        stringstream ss(data);
+        string val;
+        getline(ss,val,',');
+        TreeNode* root = new TreeNode(stoi(val));
         queue<TreeNode*> q;
+
         q.push(root);
-
-        while (!q.empty()) {
-            TreeNode* node = q.front();
+        while(!q.empty()){
+            TreeNode* curr = q.front();
             q.pop();
+            getline(ss, val, ',');
+        if(val!="#"){
+             curr->left = new TreeNode(stoi(val));
 
-            // Left child
-            if (getline(s, str, ',')) {
-                if (str == "#") {
-                    node->left = nullptr;
-                } else {
-                    TreeNode* leftNode = new TreeNode(stoi(str));
-                    node->left = leftNode;
-                    q.push(leftNode);
-                }
-            }
+                q.push(curr->left);
+        }
+        getline(ss, val, ',');
+            if (val != "#") {
 
-            // Right child
-            if (getline(s, str, ',')) {
-                if (str == "#") {
-                    node->right = nullptr;
-                } else {
-                    TreeNode* rightNode = new TreeNode(stoi(str));
-                    node->right = rightNode;
-                    q.push(rightNode);
-                }
+                curr->right = new TreeNode(stoi(val));
+
+                q.push(curr->right);
+
             }
         }
+
         return root;
     }
 };
