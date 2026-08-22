@@ -259,6 +259,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0337-house-robber-iii](https://github.com/sampoornverma/codes/tree/main/0337-house-robber-iii/) | Medium |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/sampoornverma/codes/tree/main/0559-maximum-depth-of-n-ary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/sampoornverma/codes/tree/main/0572-subtree-of-another-tree/) | Easy |
+| [0662-maximum-width-of-binary-tree](https://github.com/sampoornverma/codes/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/sampoornverma/codes/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/sampoornverma/codes/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/sampoornverma/codes/tree/main/1254-number-of-closed-islands/) | Medium |
@@ -277,6 +278,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/sampoornverma/codes/tree/main/0207-course-schedule/) | Medium |
 | [0279-perfect-squares](https://github.com/sampoornverma/codes/tree/main/0279-perfect-squares/) | Medium |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/sampoornverma/codes/tree/main/0559-maximum-depth-of-n-ary-tree/) | Easy |
+| [0662-maximum-width-of-binary-tree](https://github.com/sampoornverma/codes/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/sampoornverma/codes/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/sampoornverma/codes/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/sampoornverma/codes/tree/main/1254-number-of-closed-islands/) | Medium |
@@ -704,6 +706,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0450-delete-node-in-a-bst](https://github.com/sampoornverma/codes/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/sampoornverma/codes/tree/main/0559-maximum-depth-of-n-ary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/sampoornverma/codes/tree/main/0572-subtree-of-another-tree/) | Easy |
+| [0662-maximum-width-of-binary-tree](https://github.com/sampoornverma/codes/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/sampoornverma/codes/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/sampoornverma/codes/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 ## Binary Tree
@@ -715,6 +718,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0337-house-robber-iii](https://github.com/sampoornverma/codes/tree/main/0337-house-robber-iii/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/sampoornverma/codes/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0572-subtree-of-another-tree](https://github.com/sampoornverma/codes/tree/main/0572-subtree-of-another-tree/) | Easy |
+| [0662-maximum-width-of-binary-tree](https://github.com/sampoornverma/codes/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/sampoornverma/codes/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 ## Enumeration
 | Problem Name | Difficulty |
