@@ -885,6 +885,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1179-reformat-department-table](https://github.com/sampoornverma/codes/tree/main/1179-reformat-department-table/) | Easy |
 | [1204-last-person-to-fit-in-the-bus](https://github.com/sampoornverma/codes/tree/main/1204-last-person-to-fit-in-the-bus/) | Medium |
 | [1211-queries-quality-and-percentage](https://github.com/sampoornverma/codes/tree/main/1211-queries-quality-and-percentage/) | Easy |
+| [1378-replace-employee-id-with-the-unique-identifier](https://github.com/sampoornverma/codes/tree/main/1378-replace-employee-id-with-the-unique-identifier/) | Easy |
 | [1683-invalid-tweets](https://github.com/sampoornverma/codes/tree/main/1683-invalid-tweets/) | Easy |
 | [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/sampoornverma/codes/tree/main/1731-the-number-of-employees-which-report-to-each-employee/) | Easy |
 | [1757-recyclable-and-low-fat-products](https://github.com/sampoornverma/codes/tree/main/1757-recyclable-and-low-fat-products/) | Easy |
