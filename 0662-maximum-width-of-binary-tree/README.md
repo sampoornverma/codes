@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/maximum-width-of-binary-tree/">662. Maximum Width of Binary Tree</a></h2><h3>Medium</h3><hr><p>Given the <code>root</code> of a binary tree, return <em>the <strong>maximum width</strong> of the given tree</em>.</p>
+<h2><a href="https://leetcode.com/problems/maximum-width-of-binary-tree">662. Maximum Width of Binary Tree</a></h2><h3>Medium</h3><hr><p>Given the <code>root</code> of a binary tree, return <em>the <strong>maximum width</strong> of the given tree</em>.</p>
 
 <p>The <strong>maximum width</strong> of a tree is the maximum <strong>width</strong> among all levels.</p>
 
