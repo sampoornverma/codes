@@ -91,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/sampoornverma/codes/tree/main/0079-word-search/) | Medium |
 | [0084-largest-rectangle-in-histogram](https://github.com/sampoornverma/codes/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0090-subsets-ii](https://github.com/sampoornverma/codes/tree/main/0090-subsets-ii/) | Medium |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/sampoornverma/codes/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0118-pascals-triangle](https://github.com/sampoornverma/codes/tree/main/0118-pascals-triangle/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sampoornverma/codes/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/sampoornverma/codes/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
@@ -410,6 +411,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/sampoornverma/codes/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0053-maximum-subarray](https://github.com/sampoornverma/codes/tree/main/0053-maximum-subarray/) | Medium |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/sampoornverma/codes/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0169-majority-element](https://github.com/sampoornverma/codes/tree/main/0169-majority-element/) | Easy |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/sampoornverma/codes/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/sampoornverma/codes/tree/main/3739-count-subarrays-with-majority-element-ii/) | Hard |
@@ -708,6 +710,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/sampoornverma/codes/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/sampoornverma/codes/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0113-path-sum-ii](https://github.com/sampoornverma/codes/tree/main/0113-path-sum-ii/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/sampoornverma/codes/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
@@ -724,6 +727,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/sampoornverma/codes/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/sampoornverma/codes/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0113-path-sum-ii](https://github.com/sampoornverma/codes/tree/main/0113-path-sum-ii/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/sampoornverma/codes/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
@@ -824,6 +828,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/sampoornverma/codes/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0450-delete-node-in-a-bst](https://github.com/sampoornverma/codes/tree/main/0450-delete-node-in-a-bst/) | Medium |
 ## Merge Sort
 | Problem Name | Difficulty |
