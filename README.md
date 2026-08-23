@@ -267,6 +267,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0662-maximum-width-of-binary-tree](https://github.com/sampoornverma/codes/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/sampoornverma/codes/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/sampoornverma/codes/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [0979-distribute-coins-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/sampoornverma/codes/tree/main/1123-lowest-common-ancestor-of-deepest-leaves/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/sampoornverma/codes/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1306-jump-game-iii](https://github.com/sampoornverma/codes/tree/main/1306-jump-game-iii/) | Medium |
@@ -727,6 +728,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/sampoornverma/codes/tree/main/0559-maximum-depth-of-n-ary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/sampoornverma/codes/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/sampoornverma/codes/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
+| [0979-distribute-coins-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/sampoornverma/codes/tree/main/1123-lowest-common-ancestor-of-deepest-leaves/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
@@ -745,6 +747,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0450-delete-node-in-a-bst](https://github.com/sampoornverma/codes/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0572-subtree-of-another-tree](https://github.com/sampoornverma/codes/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/sampoornverma/codes/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
+| [0979-distribute-coins-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/sampoornverma/codes/tree/main/1123-lowest-common-ancestor-of-deepest-leaves/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
@@ -853,6 +856,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/sampoornverma/codes/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0337-house-robber-iii](https://github.com/sampoornverma/codes/tree/main/0337-house-robber-iii/) | Medium |
+| [0979-distribute-coins-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/sampoornverma/codes/tree/main/1123-lowest-common-ancestor-of-deepest-leaves/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 ## Minimax
