@@ -1,48 +1,41 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Node{
+    public :
+    int maxNode,minNode,Sum;
+
+    Node(int minNode,int maxNode,int Sum){
+        this->maxNode = maxNode;
+        this->minNode = minNode;
+        this->Sum = Sum;
+    }
+};
 class Solution {
 public:
-    int maxSum = 0;
+    int ans = 0;
+    Node helper(TreeNode* root){
+        if(!root) return Node(INT_MAX,INT_MIN,0);
+        auto left = helper(root->left);
+        auto right = helper(root->right);
 
-    class NodeValue {
-    public:
-        int minNode;
-        int maxNode;
-        int sum;
-
-        NodeValue(int minNode, int maxNode, int sum) {
-            this->minNode = minNode;
-            this->maxNode = maxNode;
-            this->sum = sum;
+        if(left.maxNode < root->val && right.minNode > root->val){
+            int curSum = left.Sum + right.Sum + root->val;
+            ans = max(ans,curSum);
+            return Node(min(root->val,left.minNode),max(root->val,right.maxNode),curSum);
         }
-    };
-
-    NodeValue dfs(TreeNode* root) {
-        // Base case
-        if (!root) {
-            return NodeValue(INT_MAX, INT_MIN, 0);
-        }
-
-        // Postorder traversal
-        NodeValue left = dfs(root->left);
-        NodeValue right = dfs(root->right);
-
-        // Check if valid BST
-        if (left.maxNode < root->val && root->val < right.minNode) {
-            int currSum = left.sum + right.sum + root->val;
-            maxSum = max(maxSum, currSum);
-
-            return NodeValue(
-                min(root->val, left.minNode),
-                max(root->val, right.maxNode),
-                currSum
-            );
-        }
-
-        // Not a BST → return invalid range
-        return NodeValue(INT_MIN, INT_MAX, 0);
+        return Node(INT_MIN,INT_MAX,0);
     }
-
     int maxSumBST(TreeNode* root) {
-        dfs(root);
-        return maxSum;
+        helper(root);
+        return ans;
     }
 };
