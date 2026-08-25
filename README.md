@@ -171,6 +171,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/sampoornverma/codes/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/sampoornverma/codes/tree/main/2463-minimum-total-distance-traveled/) | Hard |
+| [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/sampoornverma/codes/tree/main/2476-closest-nodes-queries-in-a-binary-search-tree/) | Medium |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/sampoornverma/codes/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2540-minimum-common-value](https://github.com/sampoornverma/codes/tree/main/2540-minimum-common-value/) | Easy |
 | [2560-house-robber-iv](https://github.com/sampoornverma/codes/tree/main/2560-house-robber-iv/) | Medium |
@@ -279,6 +280,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1559-detect-cycles-in-2d-grid](https://github.com/sampoornverma/codes/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/sampoornverma/codes/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
+| [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/sampoornverma/codes/tree/main/2476-closest-nodes-queries-in-a-binary-search-tree/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/sampoornverma/codes/tree/main/3310-remove-methods-from-project/) | Medium |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/sampoornverma/codes/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 ## Breadth-First Search
@@ -586,6 +588,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/sampoornverma/codes/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1964-find-the-longest-valid-obstacle-course-at-each-position](https://github.com/sampoornverma/codes/tree/main/1964-find-the-longest-valid-obstacle-course-at-each-position/) | Hard |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sampoornverma/codes/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
+| [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/sampoornverma/codes/tree/main/2476-closest-nodes-queries-in-a-binary-search-tree/) | Medium |
 | [2540-minimum-common-value](https://github.com/sampoornverma/codes/tree/main/2540-minimum-common-value/) | Easy |
 | [2560-house-robber-iv](https://github.com/sampoornverma/codes/tree/main/2560-house-robber-iv/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
@@ -735,6 +738,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/sampoornverma/codes/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
+| [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/sampoornverma/codes/tree/main/2476-closest-nodes-queries-in-a-binary-search-tree/) | Medium |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/sampoornverma/codes/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -754,6 +758,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/sampoornverma/codes/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
+| [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/sampoornverma/codes/tree/main/2476-closest-nodes-queries-in-a-binary-search-tree/) | Medium |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -848,6 +853,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/sampoornverma/codes/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0450-delete-node-in-a-bst](https://github.com/sampoornverma/codes/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
+| [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/sampoornverma/codes/tree/main/2476-closest-nodes-queries-in-a-binary-search-tree/) | Medium |
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
