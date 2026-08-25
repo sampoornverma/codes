@@ -1,16 +1,14 @@
 class Solution {
 public:
-    int f(int j,vector<int>& nums,vector<int> &dp){
-        if(j==nums.size()-1) return 0;
-        int count=nums.size();
-        if(dp[j]!= -1)return dp[j];
-        for(int i=1;i<=nums[j] && j+i<nums.size();i++){
-            count=min(count,1+f(j+i,nums,dp));
-        }
-        return dp[j]=count;
-    }
     int jump(vector<int>& nums) {
-        vector<int> dp(nums.size(),-1);
-       return f(0,nums,dp); 
+        int n=nums.size();
+        vector<int> arr(n,1000000);
+        arr[0]=0;
+        for(int i=0;i<n;i++){
+            for(int j=1;j<=nums[i] && i+j<n;j++){
+                arr[i+j]=min(arr[i+j],arr[i]+1);
+            }
+        }
+        return arr[n-1];
     }
 };
