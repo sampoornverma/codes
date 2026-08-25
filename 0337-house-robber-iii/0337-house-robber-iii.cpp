@@ -17,9 +17,7 @@ public:
             return {0, 0};
 
         auto left = solve(root->left);
-
         auto right = solve(root->right);
-
         int rob = root->val + left.first + right.first;
         int notRob = max(left.first, left.second) +
                      max(right.first, right.second);
