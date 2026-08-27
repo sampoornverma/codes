@@ -128,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0983-minimum-cost-for-tickets](https://github.com/sampoornverma/codes/tree/main/0983-minimum-cost-for-tickets/) | Medium |
 | [1035-uncrossed-lines](https://github.com/sampoornverma/codes/tree/main/1035-uncrossed-lines/) | Medium |
 | [1046-last-stone-weight](https://github.com/sampoornverma/codes/tree/main/1046-last-stone-weight/) | Easy |
+| [1049-last-stone-weight-ii](https://github.com/sampoornverma/codes/tree/main/1049-last-stone-weight-ii/) | Medium |
 | [1140-stone-game-ii](https://github.com/sampoornverma/codes/tree/main/1140-stone-game-ii/) | Medium |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/sampoornverma/codes/tree/main/1186-maximum-subarray-sum-with-one-deletion/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/sampoornverma/codes/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
@@ -484,6 +485,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0887-super-egg-drop](https://github.com/sampoornverma/codes/tree/main/0887-super-egg-drop/) | Hard |
 | [0983-minimum-cost-for-tickets](https://github.com/sampoornverma/codes/tree/main/0983-minimum-cost-for-tickets/) | Medium |
 | [1035-uncrossed-lines](https://github.com/sampoornverma/codes/tree/main/1035-uncrossed-lines/) | Medium |
+| [1049-last-stone-weight-ii](https://github.com/sampoornverma/codes/tree/main/1049-last-stone-weight-ii/) | Medium |
 | [1140-stone-game-ii](https://github.com/sampoornverma/codes/tree/main/1140-stone-game-ii/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/sampoornverma/codes/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/sampoornverma/codes/tree/main/1186-maximum-subarray-sum-with-one-deletion/) | Medium |
@@ -952,4 +954,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0802-find-eventual-safe-states](https://github.com/sampoornverma/codes/tree/main/0802-find-eventual-safe-states/) | Medium |
+## Knapsack Problem
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1049-last-stone-weight-ii](https://github.com/sampoornverma/codes/tree/main/1049-last-stone-weight-ii/) | Medium |
+## 0-1 Knapsack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1049-last-stone-weight-ii](https://github.com/sampoornverma/codes/tree/main/1049-last-stone-weight-ii/) | Medium |
 <!---LeetCode Topics End-->
