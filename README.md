@@ -70,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1914-cyclically-rotating-a-grid](https://github.com/sampoornverma/codes/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/sampoornverma/codes/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
 | [2161-partition-array-according-to-given-pivot](https://github.com/sampoornverma/codes/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
+| [2402-meeting-rooms-iii](https://github.com/sampoornverma/codes/tree/main/2402-meeting-rooms-iii/) | Hard |
 | [2751-robot-collisions](https://github.com/sampoornverma/codes/tree/main/2751-robot-collisions/) | Hard |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/sampoornverma/codes/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/sampoornverma/codes/tree/main/3069-distribute-elements-into-two-arrays-i/) | Easy |
@@ -174,6 +175,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2196-create-binary-tree-from-descriptions](https://github.com/sampoornverma/codes/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2218-maximum-value-of-k-coins-from-piles](https://github.com/sampoornverma/codes/tree/main/2218-maximum-value-of-k-coins-from-piles/) | Hard |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
+| [2402-meeting-rooms-iii](https://github.com/sampoornverma/codes/tree/main/2402-meeting-rooms-iii/) | Hard |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/sampoornverma/codes/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/sampoornverma/codes/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/sampoornverma/codes/tree/main/2476-closest-nodes-queries-in-a-binary-search-tree/) | Medium |
@@ -371,6 +373,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sampoornverma/codes/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2126-destroying-asteroids](https://github.com/sampoornverma/codes/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/sampoornverma/codes/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [2402-meeting-rooms-iii](https://github.com/sampoornverma/codes/tree/main/2402-meeting-rooms-iii/) | Hard |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/sampoornverma/codes/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/sampoornverma/codes/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2751-robot-collisions](https://github.com/sampoornverma/codes/tree/main/2751-robot-collisions/) | Hard |
@@ -402,6 +405,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1980-find-unique-binary-string](https://github.com/sampoornverma/codes/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/sampoornverma/codes/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2287-rearrange-characters-to-make-target-string](https://github.com/sampoornverma/codes/tree/main/2287-rearrange-characters-to-make-target-string/) | Easy |
+| [2402-meeting-rooms-iii](https://github.com/sampoornverma/codes/tree/main/2402-meeting-rooms-iii/) | Hard |
 | [2540-minimum-common-value](https://github.com/sampoornverma/codes/tree/main/2540-minimum-common-value/) | Easy |
 | [2615-sum-of-distances](https://github.com/sampoornverma/codes/tree/main/2615-sum-of-distances/) | Medium |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/sampoornverma/codes/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
@@ -708,6 +712,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0264-ugly-number-ii](https://github.com/sampoornverma/codes/tree/main/0264-ugly-number-ii/) | Medium |
 | [1046-last-stone-weight](https://github.com/sampoornverma/codes/tree/main/1046-last-stone-weight/) | Easy |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
+| [2402-meeting-rooms-iii](https://github.com/sampoornverma/codes/tree/main/2402-meeting-rooms-iii/) | Hard |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/sampoornverma/codes/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3691-maximum-total-subarray-value-ii](https://github.com/sampoornverma/codes/tree/main/3691-maximum-total-subarray-value-ii/) | Hard |
