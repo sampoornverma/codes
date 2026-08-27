@@ -127,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0950-reveal-cards-in-increasing-order](https://github.com/sampoornverma/codes/tree/main/0950-reveal-cards-in-increasing-order/) | Medium |
 | [0983-minimum-cost-for-tickets](https://github.com/sampoornverma/codes/tree/main/0983-minimum-cost-for-tickets/) | Medium |
 | [1035-uncrossed-lines](https://github.com/sampoornverma/codes/tree/main/1035-uncrossed-lines/) | Medium |
+| [1046-last-stone-weight](https://github.com/sampoornverma/codes/tree/main/1046-last-stone-weight/) | Easy |
 | [1140-stone-game-ii](https://github.com/sampoornverma/codes/tree/main/1140-stone-game-ii/) | Medium |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/sampoornverma/codes/tree/main/1186-maximum-subarray-sum-with-one-deletion/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/sampoornverma/codes/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
@@ -703,6 +704,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0264-ugly-number-ii](https://github.com/sampoornverma/codes/tree/main/0264-ugly-number-ii/) | Medium |
+| [1046-last-stone-weight](https://github.com/sampoornverma/codes/tree/main/1046-last-stone-weight/) | Easy |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/sampoornverma/codes/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
