@@ -270,6 +270,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/sampoornverma/codes/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0133-clone-graph](https://github.com/sampoornverma/codes/tree/main/0133-clone-graph/) | Medium |
 | [0207-course-schedule](https://github.com/sampoornverma/codes/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/sampoornverma/codes/tree/main/0210-course-schedule-ii/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sampoornverma/codes/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0337-house-robber-iii](https://github.com/sampoornverma/codes/tree/main/0337-house-robber-iii/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/sampoornverma/codes/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
@@ -297,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0133-clone-graph](https://github.com/sampoornverma/codes/tree/main/0133-clone-graph/) | Medium |
 | [0207-course-schedule](https://github.com/sampoornverma/codes/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/sampoornverma/codes/tree/main/0210-course-schedule-ii/) | Medium |
 | [0279-perfect-squares](https://github.com/sampoornverma/codes/tree/main/0279-perfect-squares/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sampoornverma/codes/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0417-pacific-atlantic-water-flow](https://github.com/sampoornverma/codes/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
@@ -323,6 +325,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0133-clone-graph](https://github.com/sampoornverma/codes/tree/main/0133-clone-graph/) | Medium |
 | [0207-course-schedule](https://github.com/sampoornverma/codes/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/sampoornverma/codes/tree/main/0210-course-schedule-ii/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/sampoornverma/codes/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/sampoornverma/codes/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/sampoornverma/codes/tree/main/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
@@ -826,6 +829,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/sampoornverma/codes/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/sampoornverma/codes/tree/main/0210-course-schedule-ii/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/sampoornverma/codes/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 ## Geometry
