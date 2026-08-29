@@ -1,65 +1,96 @@
-class DSU {
-public:
-    vector<int> parent;
-    DSU(int n) {
-        parent.resize(n);
-        for (int i = 0; i < n; i++) parent[i] = i;
-    }
-    int find(int x) {
-        if (x != parent[x]) parent[x] = find(parent[x]);
-        return parent[x];
-    }
-    void unite(int x, int y) {
-        parent[find(x)] = find(y);
-    }
-};
-
 class Solution {
 public:
-    vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
-        unordered_map<string, int> emailToIndex;
-        unordered_map<string, string> emailToName;
-        int idx = 0;
+    class DSU {
+    public:
+        vector<int> parent, rank;
 
-        // Assign index for each email
-        for (auto &acc : accounts) {
-            string name = acc[0];
-            for (int i = 1; i < acc.size(); i++) {
-                string email = acc[i];
-                if (!emailToIndex.count(email)) {
-                    emailToIndex[email] = idx++;
-                    emailToName[email] = name;
+        DSU(int n) {
+            parent.resize(n);
+            rank.resize(n, 0);
+
+            for (int i = 0; i < n; i++) {
+                parent[i] = i;
+            }
+        }
+
+        int find(int node) {
+            if (parent[node] == node)
+                return node;
+
+            return parent[node] = find(parent[node]);
+        }
+
+        void unite(int u, int v) {
+            int parentU = find(u);
+            int parentV = find(v);
+
+            if (parentU == parentV)
+                return;
+
+            if (rank[parentU] < rank[parentV]) {
+                parent[parentU] = parentV;
+            }
+            else if (rank[parentU] > rank[parentV]) {
+                parent[parentV] = parentU;
+            }
+            else {
+                parent[parentV] = parentU;
+                rank[parentU]++;
+            }
+        }
+    };
+
+    vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
+        int n = accounts.size();
+
+        DSU dsu(n);
+
+        // Step 1: Map every email to the first account
+        // in which it appears
+        unordered_map<string, int> emailToAccount;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 1; j < accounts[i].size(); j++) {
+                string email = accounts[i][j];
+
+                if (emailToAccount.find(email) == emailToAccount.end()) {
+                    emailToAccount[email] = i;
+                } else {
+                    dsu.unite(i, emailToAccount[email]);
                 }
             }
         }
 
-        DSU dsu(idx);
+        vector<vector<string>> mergedEmails(n);
 
-        // Union emails in the same account
-        for (auto &acc : accounts) {
-            int firstEmailIndex = emailToIndex[acc[1]];
-            for (int i = 2; i < acc.size(); i++) {
-                dsu.unite(firstEmailIndex, emailToIndex[acc[i]]);
+        for (auto& it : emailToAccount) {
+            string email = it.first;
+            int account = it.second;
+
+            int root = dsu.find(account);
+
+            mergedEmails[root].push_back(email);
+        }
+
+        // Step 3: Build the answer
+        vector<vector<string>> ans;
+
+        for (int i = 0; i < n; i++) {
+            if (mergedEmails[i].empty())
+                continue;
+
+            sort(mergedEmails[i].begin(), mergedEmails[i].end());
+
+            vector<string> temp;
+            temp.push_back(accounts[i][0]);
+
+            for (string& email : mergedEmails[i]) {
+                temp.push_back(email);
             }
+
+            ans.push_back(temp);
         }
 
-        // Group by parent
-        unordered_map<int, vector<string>> groups;
-        for (auto &p : emailToIndex) {
-            string email = p.first;
-            int root = dsu.find(p.second);
-            groups[root].push_back(email);
-        }
-
-        // Prepare result
-        vector<vector<string>> result;
-        for (auto &g : groups) {
-            vector<string> emails = g.second;
-            sort(emails.begin(), emails.end());
-            emails.insert(emails.begin(), emailToName[emails[0]]);
-            result.push_back(emails);
-        }
-
-        return result;
+        return ans;
     }
 };
