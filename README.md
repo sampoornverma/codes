@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0647-palindromic-substrings](https://github.com/sampoornverma/codes/tree/main/0647-palindromic-substrings/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/sampoornverma/codes/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0721-accounts-merge](https://github.com/sampoornverma/codes/tree/main/0721-accounts-merge/) | Medium |
+| [0990-satisfiability-of-equality-equations](https://github.com/sampoornverma/codes/tree/main/0990-satisfiability-of-equality-equations/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/sampoornverma/codes/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1189-maximum-number-of-balloons](https://github.com/sampoornverma/codes/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/sampoornverma/codes/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0877-stone-game](https://github.com/sampoornverma/codes/tree/main/0877-stone-game/) | Medium |
 | [0950-reveal-cards-in-increasing-order](https://github.com/sampoornverma/codes/tree/main/0950-reveal-cards-in-increasing-order/) | Medium |
 | [0983-minimum-cost-for-tickets](https://github.com/sampoornverma/codes/tree/main/0983-minimum-cost-for-tickets/) | Medium |
+| [0990-satisfiability-of-equality-equations](https://github.com/sampoornverma/codes/tree/main/0990-satisfiability-of-equality-equations/) | Medium |
 | [1035-uncrossed-lines](https://github.com/sampoornverma/codes/tree/main/1035-uncrossed-lines/) | Medium |
 | [1046-last-stone-weight](https://github.com/sampoornverma/codes/tree/main/1046-last-stone-weight/) | Easy |
 | [1049-last-stone-weight-ii](https://github.com/sampoornverma/codes/tree/main/1049-last-stone-weight-ii/) | Medium |
@@ -338,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/sampoornverma/codes/tree/main/0684-redundant-connection/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/sampoornverma/codes/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/sampoornverma/codes/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [0990-satisfiability-of-equality-equations](https://github.com/sampoornverma/codes/tree/main/0990-satisfiability-of-equality-equations/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/sampoornverma/codes/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/sampoornverma/codes/tree/main/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
@@ -673,6 +676,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/sampoornverma/codes/tree/main/0684-redundant-connection/) | Medium |
 | [0721-accounts-merge](https://github.com/sampoornverma/codes/tree/main/0721-accounts-merge/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/sampoornverma/codes/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0990-satisfiability-of-equality-equations](https://github.com/sampoornverma/codes/tree/main/0990-satisfiability-of-equality-equations/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/sampoornverma/codes/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/sampoornverma/codes/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
