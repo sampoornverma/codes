@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sampoornverma/codes/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0647-palindromic-substrings](https://github.com/sampoornverma/codes/tree/main/0647-palindromic-substrings/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/sampoornverma/codes/tree/main/0657-robot-return-to-origin/) | Easy |
+| [0721-accounts-merge](https://github.com/sampoornverma/codes/tree/main/0721-accounts-merge/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/sampoornverma/codes/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1189-maximum-number-of-balloons](https://github.com/sampoornverma/codes/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/sampoornverma/codes/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
@@ -123,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0518-coin-change-ii](https://github.com/sampoornverma/codes/tree/main/0518-coin-change-ii/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/sampoornverma/codes/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0713-subarray-product-less-than-k](https://github.com/sampoornverma/codes/tree/main/0713-subarray-product-less-than-k/) | Medium |
+| [0721-accounts-merge](https://github.com/sampoornverma/codes/tree/main/0721-accounts-merge/) | Medium |
 | [0873-length-of-longest-fibonacci-subsequence](https://github.com/sampoornverma/codes/tree/main/0873-length-of-longest-fibonacci-subsequence/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/sampoornverma/codes/tree/main/0874-walking-robot-simulation/) | Medium |
 | [0877-stone-game](https://github.com/sampoornverma/codes/tree/main/0877-stone-game/) | Medium |
@@ -278,6 +280,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/sampoornverma/codes/tree/main/0559-maximum-depth-of-n-ary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/sampoornverma/codes/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/sampoornverma/codes/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
+| [0721-accounts-merge](https://github.com/sampoornverma/codes/tree/main/0721-accounts-merge/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/sampoornverma/codes/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/sampoornverma/codes/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
@@ -305,6 +308,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0417-pacific-atlantic-water-flow](https://github.com/sampoornverma/codes/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/sampoornverma/codes/tree/main/0559-maximum-depth-of-n-ary-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/sampoornverma/codes/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
+| [0721-accounts-merge](https://github.com/sampoornverma/codes/tree/main/0721-accounts-merge/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/sampoornverma/codes/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/sampoornverma/codes/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/sampoornverma/codes/tree/main/1123-lowest-common-ancestor-of-deepest-leaves/) | Medium |
@@ -363,6 +367,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/sampoornverma/codes/tree/main/0075-sort-colors/) | Medium |
 | [0169-majority-element](https://github.com/sampoornverma/codes/tree/main/0169-majority-element/) | Easy |
 | [0435-non-overlapping-intervals](https://github.com/sampoornverma/codes/tree/main/0435-non-overlapping-intervals/) | Medium |
+| [0721-accounts-merge](https://github.com/sampoornverma/codes/tree/main/0721-accounts-merge/) | Medium |
 | [0950-reveal-cards-in-increasing-order](https://github.com/sampoornverma/codes/tree/main/0950-reveal-cards-in-increasing-order/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/sampoornverma/codes/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1340-jump-game-v](https://github.com/sampoornverma/codes/tree/main/1340-jump-game-v/) | Hard |
@@ -401,6 +406,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/sampoornverma/codes/tree/main/0169-majority-element/) | Easy |
 | [0202-happy-number](https://github.com/sampoornverma/codes/tree/main/0202-happy-number/) | Easy |
 | [0264-ugly-number-ii](https://github.com/sampoornverma/codes/tree/main/0264-ugly-number-ii/) | Medium |
+| [0721-accounts-merge](https://github.com/sampoornverma/codes/tree/main/0721-accounts-merge/) | Medium |
 | [0873-length-of-longest-fibonacci-subsequence](https://github.com/sampoornverma/codes/tree/main/0873-length-of-longest-fibonacci-subsequence/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/sampoornverma/codes/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/sampoornverma/codes/tree/main/1123-lowest-common-ancestor-of-deepest-leaves/) | Medium |
@@ -658,6 +664,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0721-accounts-merge](https://github.com/sampoornverma/codes/tree/main/0721-accounts-merge/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/sampoornverma/codes/tree/main/0785-is-graph-bipartite/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/sampoornverma/codes/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
