@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sampoornverma/codes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0005-longest-palindromic-substring](https://github.com/sampoornverma/codes/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0012-integer-to-roman](https://github.com/sampoornverma/codes/tree/main/0012-integer-to-roman/) | Medium |
 | [0044-wildcard-matching](https://github.com/sampoornverma/codes/tree/main/0044-wildcard-matching/) | Hard |
 | [0058-length-of-last-word](https://github.com/sampoornverma/codes/tree/main/0058-length-of-last-word/) | Easy |
@@ -336,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/sampoornverma/codes/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0015-3sum](https://github.com/sampoornverma/codes/tree/main/0015-3sum/) | Medium |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/sampoornverma/codes/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0075-sort-colors](https://github.com/sampoornverma/codes/tree/main/0075-sort-colors/) | Medium |
@@ -453,6 +455,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/sampoornverma/codes/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0044-wildcard-matching](https://github.com/sampoornverma/codes/tree/main/0044-wildcard-matching/) | Hard |
 | [0045-jump-game-ii](https://github.com/sampoornverma/codes/tree/main/0045-jump-game-ii/) | Medium |
 | [0053-maximum-subarray](https://github.com/sampoornverma/codes/tree/main/0053-maximum-subarray/) | Medium |
@@ -975,4 +978,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1115-print-foobar-alternately](https://github.com/sampoornverma/codes/tree/main/1115-print-foobar-alternately/) | Medium |
+## Manacher
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/sampoornverma/codes/tree/main/0005-longest-palindromic-substring/) | Medium |
 <!---LeetCode Topics End-->
