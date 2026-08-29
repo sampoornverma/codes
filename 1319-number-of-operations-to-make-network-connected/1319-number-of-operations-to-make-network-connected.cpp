@@ -1,61 +1,72 @@
-class d {
+class dsu {
 public:
-    vector<int> rank, parent;
-    d(int n) {
-        rank.resize(n+1, 0);
-        parent.resize(n+1);
-        for (int i = 0; i <= n; i++) {
+    vector<int> size;
+    vector<int> parent;
+
+    dsu(int n) {
+        size.assign(n, 1);
+        parent.resize(n);
+
+        for (int i = 0; i < n; i++) {
             parent[i] = i;
         }
     }
 
-    int findparent(int n) {
-        if (n == parent[n]) return n;
-        return parent[n] = findparent(parent[n]);
+    int find(int u) {
+        if (parent[u] == u)
+            return u;
+
+        return parent[u] = find(parent[u]); // path compression
     }
 
-    void unionByRank(int u, int v) {   // renamed union → unionByRank
-        int up = findparent(u);
-        int vp = findparent(v);
-        if (up == vp) return;
-        if (rank[up] < rank[vp]) {
-            parent[up] = vp;
-        } else if (rank[up] > rank[vp]) {
-            parent[vp] = up;
-        } else {
-            parent[vp] = up;
-            rank[up]++;
-        }
+    void unioni(int u, int v) {
+        int x = find(u);
+        int y = find(v);
+
+        if (x == y)
+            return;
+
+        if (size[x] < size[y])
+            swap(x, y);
+
+        parent[y] = x;
+        size[x] += size[y];
     }
 };
 
 class Solution {
 public:
-    int makeConnected(int n, vector<vector<int>>& c) {
-        if (c.size() < n - 1) return -1;  // not enough edges
+    int makeConnected(int n, vector<vector<int>>& connections) {
+        if (connections.size() < n - 1)
+            return -1;
 
-        d ds(n);
-        int count = 0;
-        int x = 0;
+        dsu d(n);
 
-        for (auto &it : c) {
-            int u = it[0];   // use it[0], it[1] instead of .first/.second
-            int v = it[1];
-            if (ds.findparent(u) == ds.findparent(v)) {
-                count++;  // extra edge
+        int extraEdges = 0;
+
+        for (int i = 0; i < connections.size(); i++) {
+            int l = connections[i][0];
+            int b = connections[i][1];
+
+            int x = d.find(l);
+            int y = d.find(b);
+
+            if (x == y) {
+                extraEdges++;
             } else {
-                x++;
-                ds.unionByRank(u, v);
+                d.unioni(l, b);
             }
         }
 
-        int comp = 0;
+        int components = 0;
+
         for (int i = 0; i < n; i++) {
-            if (ds.findparent(i) == i) comp++;
+            if (d.find(i) == i)
+                components++;
         }
 
-        int needed = comp - 1;
-        if (count >= needed) return needed;
-        return -1;
+        int needed = components - 1;
+
+        return extraEdges >= needed ? needed : -1;
     }
 };
