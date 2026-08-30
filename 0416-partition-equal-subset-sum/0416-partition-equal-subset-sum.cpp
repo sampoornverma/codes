@@ -1,36 +1,45 @@
 class Solution {
 public:
-    bool canPartition(vector<int>& arr) {
-        int sum=0;
-        int n=arr.size();
-        for(int i=0;i<arr.size();i++){
-            sum=sum+arr[i];
+    bool canPartition(vector<int>& nums) {
+        int sum = 0;
+        int n = nums.size();
+
+        for(int i = 0; i < n; i++) {
+            sum += nums[i];
         }
-        if(sum%2==1)return false;
-        int k=sum/2;
-          vector<vector<bool>> dp(n, vector<bool>(k+1,false));
 
-    for(int i=0;i<n;i++)
-        dp[i][0] = true;
+        // Odd total sum cannot be divided equally
+        if(sum % 2 != 0)
+            return false;
 
-    if(arr[0] <= k)
-        dp[0][arr[0]] = true;
+        int target = sum / 2;
 
-    for(int i=1;i<n;i++){
-        for(int target=1; target<=k; target++){
+        vector<vector<bool>> dp(n, vector<bool>(target + 1, false));
 
-            bool notTake = dp[i-1][target];
-            bool take = false;
-
-            if(arr[i] <= target)
-                take = dp[i-1][target-arr[i]];
-
-            dp[i][target] = take || notTake;
+        // Target 0 is always possible
+        for(int i = 0; i < n; i++) {
+            dp[i][0] = true;
         }
-    }
 
-    return dp[n-1][k];
+        // Using only nums[0]
+        if(nums[0] <= target) {
+            dp[0][nums[0]] = true;
+        }
 
+        // DP
+        for(int i = 1; i < n; i++) {
+            for(int j = 1; j <= target; j++) {
 
+                bool notTaken = dp[i - 1][j];
+                bool taken = false;
+                if(nums[i] <= j) {
+                    taken = dp[i - 1][j - nums[i]];
+                }
+
+                dp[i][j] = notTaken || taken;
+            }
+        }
+
+        return dp[n - 1][target];
     }
 };
