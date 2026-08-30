@@ -1004,10 +1004,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Knapsack Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0416-partition-equal-subset-sum](https://github.com/sampoornverma/codes/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [1049-last-stone-weight-ii](https://github.com/sampoornverma/codes/tree/main/1049-last-stone-weight-ii/) | Medium |
 ## 0-1 Knapsack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0416-partition-equal-subset-sum](https://github.com/sampoornverma/codes/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [1049-last-stone-weight-ii](https://github.com/sampoornverma/codes/tree/main/1049-last-stone-weight-ii/) | Medium |
 ## Concurrency
 | Problem Name | Difficulty |
