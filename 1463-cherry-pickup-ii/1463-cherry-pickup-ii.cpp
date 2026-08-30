@@ -1,33 +1,30 @@
 class Solution {
 public:
-    int f(vector<vector<int>>& o, vector<vector<vector<int>>>& dp, int n, int m, int i, int j1, int j2) {
-        if (j1 < 0 || j1 >= m || j2 < 0 || j2 >= m) return -1e9;
+    int cherryPickup(vector<vector<int>>& grid) {
+        int m = grid.size(), n = grid[0].size();
+        vector<vector<vector<int>>> dp(m, vector<vector<int>>(n, vector<int>(n, -1)));
+        dp[0][0][n-1] = grid[0][0] + grid[0][n-1];
 
-        if (i == n - 1) {
-            if (j1 == j2) return o[i][j1];
-            else return o[i][j1] + o[i][j2];
-        }
-
-        if (dp[i][j1][j2] != -1) return dp[i][j1][j2];
-
-        int max1 = -1e9;
-        for (int dj1 = -1; dj1 <= 1; dj1++) {
-            for (int dj2 = -1; dj2 <= 1; dj2++) {
-                int nextJ1 = j1 + dj1;
-                int nextJ2 = j2 + dj2;
-                int value = (j1 == j2) ? o[i][j1] : o[i][j1] + o[i][j2];
-                value += f(o, dp, n, m, i + 1, nextJ1, nextJ2);
-                max1 = max(max1, value);
+        int ans = 0;
+        for(int i = 1; i < m; ++i) {
+            for(int j = 0; j < n; ++j) { // robotA
+                for(int k = j+1; k < n; ++k) { // robotB
+                    for(int x = -1; x <= 1; ++x) { // x and y all possible combinations
+                        for(int y = -1; y <= 1; ++y) {
+                            int nj = j + x, nk = k + y;
+                            if(nj >= 0 && nj < n && nk >= 0 && nk < n) {
+                                int prev = dp[i-1][nj][nk];
+                                if(prev != -1) {
+                                    dp[i][j][k] = max(dp[i][j][k], prev + grid[i][j] + (j != k ? grid[i][k] : 0));
+                                }
+                            }
+                        }
+                    }
+                    if(ans < dp[i][j][k]) ans = dp[i][j][k];
+                }
             }
         }
-
-        return dp[i][j1][j2] = max1;
-    }
-
-    int cherryPickup(vector<vector<int>>& o) {
-        int n = o.size();
-        int m = o[0].size();
-        vector<vector<vector<int>>> dp(n, vector<vector<int>>(m, vector<int>(m, -1)));
-        return f(o, dp, n, m, 0, 0, m - 1);
+        
+        return ans;
     }
 };
