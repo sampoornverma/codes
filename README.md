@@ -148,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1402-reducing-dishes](https://github.com/sampoornverma/codes/tree/main/1402-reducing-dishes/) | Hard |
 | [1406-stone-game-iii](https://github.com/sampoornverma/codes/tree/main/1406-stone-game-iii/) | Hard |
+| [1463-cherry-pickup-ii](https://github.com/sampoornverma/codes/tree/main/1463-cherry-pickup-ii/) | Hard |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sampoornverma/codes/tree/main/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/sampoornverma/codes/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1559-detect-cycles-in-2d-grid](https://github.com/sampoornverma/codes/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -248,6 +249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-swim-in-rising-water](https://github.com/sampoornverma/codes/tree/main/0778-swim-in-rising-water/) | Hard |
 | [1254-number-of-closed-islands](https://github.com/sampoornverma/codes/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
+| [1463-cherry-pickup-ii](https://github.com/sampoornverma/codes/tree/main/1463-cherry-pickup-ii/) | Hard |
 | [1559-detect-cycles-in-2d-grid](https://github.com/sampoornverma/codes/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/sampoornverma/codes/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/sampoornverma/codes/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
@@ -529,6 +531,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1402-reducing-dishes](https://github.com/sampoornverma/codes/tree/main/1402-reducing-dishes/) | Hard |
 | [1406-stone-game-iii](https://github.com/sampoornverma/codes/tree/main/1406-stone-game-iii/) | Hard |
 | [1416-restore-the-array](https://github.com/sampoornverma/codes/tree/main/1416-restore-the-array/) | Hard |
+| [1463-cherry-pickup-ii](https://github.com/sampoornverma/codes/tree/main/1463-cherry-pickup-ii/) | Hard |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sampoornverma/codes/tree/main/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [1510-stone-game-iv](https://github.com/sampoornverma/codes/tree/main/1510-stone-game-iv/) | Hard |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/sampoornverma/codes/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
