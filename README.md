@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0131-palindrome-partitioning](https://github.com/sampoornverma/codes/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0132-palindrome-partitioning-ii](https://github.com/sampoornverma/codes/tree/main/0132-palindrome-partitioning-ii/) | Hard |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sampoornverma/codes/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
+| [0516-longest-palindromic-subsequence](https://github.com/sampoornverma/codes/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0647-palindromic-substrings](https://github.com/sampoornverma/codes/tree/main/0647-palindromic-substrings/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/sampoornverma/codes/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0721-accounts-merge](https://github.com/sampoornverma/codes/tree/main/0721-accounts-merge/) | Medium |
@@ -510,6 +511,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/sampoornverma/codes/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0486-predict-the-winner](https://github.com/sampoornverma/codes/tree/main/0486-predict-the-winner/) | Medium |
 | [0509-fibonacci-number](https://github.com/sampoornverma/codes/tree/main/0509-fibonacci-number/) | Easy |
+| [0516-longest-palindromic-subsequence](https://github.com/sampoornverma/codes/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0518-coin-change-ii](https://github.com/sampoornverma/codes/tree/main/0518-coin-change-ii/) | Medium |
 | [0647-palindromic-substrings](https://github.com/sampoornverma/codes/tree/main/0647-palindromic-substrings/) | Medium |
 | [0788-rotated-digits](https://github.com/sampoornverma/codes/tree/main/0788-rotated-digits/) | Medium |
