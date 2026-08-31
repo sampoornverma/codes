@@ -1,39 +1,26 @@
 class Solution {
 public:
-    int f(int i,int amount,
-      vector<int>& coins,
-      vector<vector<int>>& dp)
-{
-    if(amount == 0) return 1;
-
-    if(i >= coins.size())
-        return 0;
-
-    if(dp[i][amount] != -1)
-        return dp[i][amount];
-
-    int take = 0;
-
-    if(coins[i] <= amount)
-        take = f(i, amount - coins[i], coins, dp);
-
-    int notTake =
-        f(i + 1, amount, coins, dp);
-
-    return dp[i][amount] =
-           take + notTake;
-}
     int change(int amount, vector<int>& coins) {
+        int n = coins.size();
 
-    vector<vector<int>> dp(
+        vector<vector<int>> dp(n + 1, vector<int>(amount + 1, 0));
 
-        coins.size(),
+        for (int i = 0; i < n + 1; i++) {
+            dp[i][0] = 1;
+        }
 
-        vector<int>(amount + 1, -1)
+        for (int i = 1; i < n + 1; i++) {
+            for (int j = 1; j < amount + 1; j++) {
 
-    );
+                if (coins[i - 1] <= j) {
+                    long long ways =1LL * dp[i][j - coins[i - 1]] + dp[i - 1][j];
+                    dp[i][j] = min(ways, 1LL * INT_MAX);
+                } else {
+                    dp[i][j] = dp[i - 1][j];
+                }
+            }
+        }
 
-    return f(0, amount, coins, dp);
-
-}
+        return dp[n][amount];
+    }
 };
