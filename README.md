@@ -993,6 +993,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1683-invalid-tweets](https://github.com/sampoornverma/codes/tree/main/1683-invalid-tweets/) | Easy |
 | [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/sampoornverma/codes/tree/main/1731-the-number-of-employees-which-report-to-each-employee/) | Easy |
 | [1757-recyclable-and-low-fat-products](https://github.com/sampoornverma/codes/tree/main/1757-recyclable-and-low-fat-products/) | Easy |
+| [1934-confirmation-rate](https://github.com/sampoornverma/codes/tree/main/1934-confirmation-rate/) | Medium |
 ## Binary Lifting
 | Problem Name | Difficulty |
 | ------- | ------- |
