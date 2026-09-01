@@ -982,6 +982,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0577-employee-bonus](https://github.com/sampoornverma/codes/tree/main/0577-employee-bonus/) | Easy |
 | [0595-big-countries](https://github.com/sampoornverma/codes/tree/main/0595-big-countries/) | Easy |
 | [1068-product-sales-analysis-i](https://github.com/sampoornverma/codes/tree/main/1068-product-sales-analysis-i/) | Easy |
+| [1075-project-employees-i](https://github.com/sampoornverma/codes/tree/main/1075-project-employees-i/) | Easy |
 | [1148-article-views-i](https://github.com/sampoornverma/codes/tree/main/1148-article-views-i/) | Easy |
 | [1179-reformat-department-table](https://github.com/sampoornverma/codes/tree/main/1179-reformat-department-table/) | Easy |
 | [1204-last-person-to-fit-in-the-bus](https://github.com/sampoornverma/codes/tree/main/1204-last-person-to-fit-in-the-bus/) | Medium |
