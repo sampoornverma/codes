@@ -210,6 +210,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/sampoornverma/codes/tree/main/3069-distribute-elements-into-two-arrays-i/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/sampoornverma/codes/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3093-longest-common-suffix-queries](https://github.com/sampoornverma/codes/tree/main/3093-longest-common-suffix-queries/) | Hard |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/sampoornverma/codes/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
 | [3161-block-placement-queries](https://github.com/sampoornverma/codes/tree/main/3161-block-placement-queries/) | Hard |
 | [3225-maximum-score-from-grid-operations](https://github.com/sampoornverma/codes/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/sampoornverma/codes/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
@@ -626,6 +627,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/sampoornverma/codes/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sampoornverma/codes/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/sampoornverma/codes/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/sampoornverma/codes/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/sampoornverma/codes/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/sampoornverma/codes/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 ## Binary Search
@@ -647,6 +649,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2540-minimum-common-value](https://github.com/sampoornverma/codes/tree/main/2540-minimum-common-value/) | Easy |
 | [2560-house-robber-iv](https://github.com/sampoornverma/codes/tree/main/2560-house-robber-iv/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/sampoornverma/codes/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
 | [3161-block-placement-queries](https://github.com/sampoornverma/codes/tree/main/3161-block-placement-queries/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/sampoornverma/codes/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/sampoornverma/codes/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
@@ -740,6 +743,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2029-stone-game-ix](https://github.com/sampoornverma/codes/tree/main/2029-stone-game-ix/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/sampoornverma/codes/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/sampoornverma/codes/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/sampoornverma/codes/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/sampoornverma/codes/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/sampoornverma/codes/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3345-smallest-divisible-digit-product-i](https://github.com/sampoornverma/codes/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
@@ -886,6 +890,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0204-count-primes](https://github.com/sampoornverma/codes/tree/main/0204-count-primes/) | Medium |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/sampoornverma/codes/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/sampoornverma/codes/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/sampoornverma/codes/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 ## Trie
@@ -1059,4 +1064,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0518-coin-change-ii](https://github.com/sampoornverma/codes/tree/main/0518-coin-change-ii/) | Medium |
+## Combinatorics
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/sampoornverma/codes/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
 <!---LeetCode Topics End-->
