@@ -238,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3742-maximum-path-score-in-a-grid](https://github.com/sampoornverma/codes/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/sampoornverma/codes/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 | [3866-first-unique-even-element](https://github.com/sampoornverma/codes/tree/main/3866-first-unique-even-element/) | Easy |
+| [3875-construct-uniform-parity-array-i](https://github.com/sampoornverma/codes/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -747,6 +748,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/sampoornverma/codes/tree/main/3753-total-waviness-of-numbers-in-range-ii/) | Hard |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/sampoornverma/codes/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 | [3783-mirror-distance-of-an-integer](https://github.com/sampoornverma/codes/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
+| [3875-construct-uniform-parity-array-i](https://github.com/sampoornverma/codes/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
