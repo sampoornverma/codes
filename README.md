@@ -146,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1335-minimum-difficulty-of-a-job-schedule](https://github.com/sampoornverma/codes/tree/main/1335-minimum-difficulty-of-a-job-schedule/) | Hard |
 | [1340-jump-game-v](https://github.com/sampoornverma/codes/tree/main/1340-jump-game-v/) | Hard |
 | [1345-jump-game-iv](https://github.com/sampoornverma/codes/tree/main/1345-jump-game-iv/) | Hard |
+| [1386-cinema-seat-allocation](https://github.com/sampoornverma/codes/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1402-reducing-dishes](https://github.com/sampoornverma/codes/tree/main/1402-reducing-dishes/) | Hard |
 | [1406-stone-game-iii](https://github.com/sampoornverma/codes/tree/main/1406-stone-game-iii/) | Hard |
@@ -434,6 +435,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/sampoornverma/codes/tree/main/1123-lowest-common-ancestor-of-deepest-leaves/) | Medium |
 | [1189-maximum-number-of-balloons](https://github.com/sampoornverma/codes/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1345-jump-game-iv](https://github.com/sampoornverma/codes/tree/main/1345-jump-game-iv/) | Hard |
+| [1386-cinema-seat-allocation](https://github.com/sampoornverma/codes/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/sampoornverma/codes/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/sampoornverma/codes/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/sampoornverma/codes/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
@@ -625,6 +627,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0201-bitwise-and-of-numbers-range](https://github.com/sampoornverma/codes/tree/main/0201-bitwise-and-of-numbers-range/) | Medium |
 | [1009-complement-of-base-10-integer](https://github.com/sampoornverma/codes/tree/main/1009-complement-of-base-10-integer/) | Easy |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/sampoornverma/codes/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
+| [1386-cinema-seat-allocation](https://github.com/sampoornverma/codes/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sampoornverma/codes/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/sampoornverma/codes/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/sampoornverma/codes/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
@@ -668,6 +671,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0134-gas-station](https://github.com/sampoornverma/codes/tree/main/0134-gas-station/) | Medium |
 | [0135-candy](https://github.com/sampoornverma/codes/tree/main/0135-candy/) | Hard |
 | [0435-non-overlapping-intervals](https://github.com/sampoornverma/codes/tree/main/0435-non-overlapping-intervals/) | Medium |
+| [1386-cinema-seat-allocation](https://github.com/sampoornverma/codes/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1402-reducing-dishes](https://github.com/sampoornverma/codes/tree/main/1402-reducing-dishes/) | Hard |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/sampoornverma/codes/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/sampoornverma/codes/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
