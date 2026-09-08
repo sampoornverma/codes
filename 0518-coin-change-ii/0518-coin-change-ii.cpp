@@ -14,7 +14,7 @@ public:
 
                 if (coins[i - 1] <= j) {
                     long long ways =1LL * dp[i][j - coins[i - 1]] + dp[i - 1][j];
-                    dp[i][j] = min(ways, 1LL * INT_MAX);
+                    dp[i][j] = ways;
                 } else {
                     dp[i][j] = dp[i - 1][j];
                 }
