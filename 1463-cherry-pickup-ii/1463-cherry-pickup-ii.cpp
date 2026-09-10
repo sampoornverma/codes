@@ -8,7 +8,7 @@ public:
         int ans = 0;
         for(int i = 1; i < m; ++i) {
             for(int j = 0; j < n; ++j) { // robotA
-                for(int k = j+1; k < n; ++k) { // robotB
+                for(int k = 0; k < n; ++k) { // robotB
                     for(int x = -1; x <= 1; ++x) { // x and y all possible combinations
                         for(int y = -1; y <= 1; ++y) {
                             int nj = j + x, nk = k + y;
