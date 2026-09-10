@@ -125,6 +125,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/sampoornverma/codes/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0486-predict-the-winner](https://github.com/sampoornverma/codes/tree/main/0486-predict-the-winner/) | Medium |
 | [0518-coin-change-ii](https://github.com/sampoornverma/codes/tree/main/0518-coin-change-ii/) | Medium |
+| [0542-01-matrix](https://github.com/sampoornverma/codes/tree/main/0542-01-matrix/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/sampoornverma/codes/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/sampoornverma/codes/tree/main/0673-number-of-longest-increasing-subsequence/) | Medium |
 | [0713-subarray-product-less-than-k](https://github.com/sampoornverma/codes/tree/main/0713-subarray-product-less-than-k/) | Medium |
@@ -255,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/sampoornverma/codes/tree/main/0079-word-search/) | Medium |
 | [0221-maximal-square](https://github.com/sampoornverma/codes/tree/main/0221-maximal-square/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/sampoornverma/codes/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
+| [0542-01-matrix](https://github.com/sampoornverma/codes/tree/main/0542-01-matrix/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/sampoornverma/codes/tree/main/0778-swim-in-rising-water/) | Hard |
 | [1254-number-of-closed-islands](https://github.com/sampoornverma/codes/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
@@ -327,6 +329,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0279-perfect-squares](https://github.com/sampoornverma/codes/tree/main/0279-perfect-squares/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sampoornverma/codes/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0417-pacific-atlantic-water-flow](https://github.com/sampoornverma/codes/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
+| [0542-01-matrix](https://github.com/sampoornverma/codes/tree/main/0542-01-matrix/) | Medium |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/sampoornverma/codes/tree/main/0559-maximum-depth-of-n-ary-tree/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/sampoornverma/codes/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0684-redundant-connection](https://github.com/sampoornverma/codes/tree/main/0684-redundant-connection/) | Medium |
@@ -523,6 +526,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0509-fibonacci-number](https://github.com/sampoornverma/codes/tree/main/0509-fibonacci-number/) | Easy |
 | [0516-longest-palindromic-subsequence](https://github.com/sampoornverma/codes/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0518-coin-change-ii](https://github.com/sampoornverma/codes/tree/main/0518-coin-change-ii/) | Medium |
+| [0542-01-matrix](https://github.com/sampoornverma/codes/tree/main/0542-01-matrix/) | Medium |
 | [0647-palindromic-substrings](https://github.com/sampoornverma/codes/tree/main/0647-palindromic-substrings/) | Medium |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/sampoornverma/codes/tree/main/0673-number-of-longest-increasing-subsequence/) | Medium |
 | [0788-rotated-digits](https://github.com/sampoornverma/codes/tree/main/0788-rotated-digits/) | Medium |
