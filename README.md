@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/sampoornverma/codes/tree/main/0079-word-search/) | Medium |
 | [0087-scramble-string](https://github.com/sampoornverma/codes/tree/main/0087-scramble-string/) | Hard |
 | [0115-distinct-subsequences](https://github.com/sampoornverma/codes/tree/main/0115-distinct-subsequences/) | Hard |
+| [0127-word-ladder](https://github.com/sampoornverma/codes/tree/main/0127-word-ladder/) | Hard |
 | [0131-palindrome-partitioning](https://github.com/sampoornverma/codes/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0132-palindrome-partitioning-ii](https://github.com/sampoornverma/codes/tree/main/0132-palindrome-partitioning-ii/) | Hard |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/sampoornverma/codes/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
@@ -324,6 +325,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0127-word-ladder](https://github.com/sampoornverma/codes/tree/main/0127-word-ladder/) | Hard |
 | [0133-clone-graph](https://github.com/sampoornverma/codes/tree/main/0133-clone-graph/) | Medium |
 | [0207-course-schedule](https://github.com/sampoornverma/codes/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/sampoornverma/codes/tree/main/0210-course-schedule-ii/) | Medium |
@@ -434,6 +436,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sampoornverma/codes/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0012-integer-to-roman](https://github.com/sampoornverma/codes/tree/main/0012-integer-to-roman/) | Medium |
+| [0127-word-ladder](https://github.com/sampoornverma/codes/tree/main/0127-word-ladder/) | Hard |
 | [0133-clone-graph](https://github.com/sampoornverma/codes/tree/main/0133-clone-graph/) | Medium |
 | [0141-linked-list-cycle](https://github.com/sampoornverma/codes/tree/main/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/sampoornverma/codes/tree/main/0142-linked-list-cycle-ii/) | Medium |
@@ -1102,4 +1105,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/sampoornverma/codes/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/sampoornverma/codes/tree/main/0673-number-of-longest-increasing-subsequence/) | Medium |
+## Bidirectional Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0127-word-ladder](https://github.com/sampoornverma/codes/tree/main/0127-word-ladder/) | Hard |
 <!---LeetCode Topics End-->
