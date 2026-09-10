@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1143-longest-common-subsequence](https://github.com/sampoornverma/codes/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1189-maximum-number-of-balloons](https://github.com/sampoornverma/codes/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/sampoornverma/codes/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/sampoornverma/codes/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/sampoornverma/codes/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/sampoornverma/codes/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1416-restore-the-array](https://github.com/sampoornverma/codes/tree/main/1416-restore-the-array/) | Hard |
@@ -551,6 +552,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1143-longest-common-subsequence](https://github.com/sampoornverma/codes/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/sampoornverma/codes/tree/main/1186-maximum-subarray-sum-with-one-deletion/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/sampoornverma/codes/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/sampoornverma/codes/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/sampoornverma/codes/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
 | [1335-minimum-difficulty-of-a-job-schedule](https://github.com/sampoornverma/codes/tree/main/1335-minimum-difficulty-of-a-job-schedule/) | Hard |
 | [1340-jump-game-v](https://github.com/sampoornverma/codes/tree/main/1340-jump-game-v/) | Hard |
