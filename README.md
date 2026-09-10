@@ -317,6 +317,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/sampoornverma/codes/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/sampoornverma/codes/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
+| [2360-longest-cycle-in-a-graph](https://github.com/sampoornverma/codes/tree/main/2360-longest-cycle-in-a-graph/) | Hard |
 | [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/sampoornverma/codes/tree/main/2476-closest-nodes-queries-in-a-binary-search-tree/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/sampoornverma/codes/tree/main/3310-remove-methods-from-project/) | Medium |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/sampoornverma/codes/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
@@ -347,6 +348,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/sampoornverma/codes/tree/main/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/sampoornverma/codes/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
+| [2360-longest-cycle-in-a-graph](https://github.com/sampoornverma/codes/tree/main/2360-longest-cycle-in-a-graph/) | Hard |
 | [2608-shortest-cycle-in-a-graph](https://github.com/sampoornverma/codes/tree/main/2608-shortest-cycle-in-a-graph/) | Hard |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [2998-minimum-number-of-operations-to-make-x-and-y-equal](https://github.com/sampoornverma/codes/tree/main/2998-minimum-number-of-operations-to-make-x-and-y-equal/) | Medium |
@@ -365,6 +367,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1319-number-of-operations-to-make-network-connected](https://github.com/sampoornverma/codes/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/sampoornverma/codes/tree/main/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
+| [2360-longest-cycle-in-a-graph](https://github.com/sampoornverma/codes/tree/main/2360-longest-cycle-in-a-graph/) | Hard |
 | [2608-shortest-cycle-in-a-graph](https://github.com/sampoornverma/codes/tree/main/2608-shortest-cycle-in-a-graph/) | Hard |
 | [3310-remove-methods-from-project](https://github.com/sampoornverma/codes/tree/main/3310-remove-methods-from-project/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/sampoornverma/codes/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
@@ -905,6 +908,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/sampoornverma/codes/tree/main/0210-course-schedule-ii/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/sampoornverma/codes/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
+| [2360-longest-cycle-in-a-graph](https://github.com/sampoornverma/codes/tree/main/2360-longest-cycle-in-a-graph/) | Hard |
 ## Geometry
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -1056,10 +1060,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0802-find-eventual-safe-states](https://github.com/sampoornverma/codes/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [2360-longest-cycle-in-a-graph](https://github.com/sampoornverma/codes/tree/main/2360-longest-cycle-in-a-graph/) | Hard |
 ## Tarjan's SCC Algorithm
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0802-find-eventual-safe-states](https://github.com/sampoornverma/codes/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [2360-longest-cycle-in-a-graph](https://github.com/sampoornverma/codes/tree/main/2360-longest-cycle-in-a-graph/) | Hard |
 ## Knapsack Problem
 | Problem Name | Difficulty |
 | ------- | ------- |
