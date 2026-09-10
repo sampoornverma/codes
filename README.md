@@ -313,6 +313,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/sampoornverma/codes/tree/main/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/sampoornverma/codes/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/sampoornverma/codes/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/sampoornverma/codes/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/sampoornverma/codes/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/sampoornverma/codes/tree/main/2476-closest-nodes-queries-in-a-binary-search-tree/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/sampoornverma/codes/tree/main/3310-remove-methods-from-project/) | Medium |
@@ -825,6 +826,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/sampoornverma/codes/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/sampoornverma/codes/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 | [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/sampoornverma/codes/tree/main/2476-closest-nodes-queries-in-a-binary-search-tree/) | Medium |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/sampoornverma/codes/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 ## Binary Tree
@@ -845,6 +847,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/sampoornverma/codes/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/sampoornverma/codes/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/sampoornverma/codes/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 | [2476-closest-nodes-queries-in-a-binary-search-tree](https://github.com/sampoornverma/codes/tree/main/2476-closest-nodes-queries-in-a-binary-search-tree/) | Medium |
 ## Enumeration
 | Problem Name | Difficulty |
